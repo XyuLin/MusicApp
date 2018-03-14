@@ -1,0 +1,153 @@
+[ 2018-01-04T14:59:29+08:00 ] ::1 /appmusic/index.php/home/user/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+ERR: 非法操作:show_classmate_lst
+
+[ 2018-01-04T14:59:49+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0125s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0136s ]
+
+[ 2018-01-04T15:00:13+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0130s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0116s ]
+
+[ 2018-01-04T15:01:58+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0125s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0075s ]
+
+[ 2018-01-04T15:02:42+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0112s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0080s ]
+
+[ 2018-01-04T15:03:36+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0104s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0088s ]
+
+[ 2018-01-04T15:03:58+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0129s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0101s ]
+
+[ 2018-01-04T15:04:44+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0121s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('5')  [ RunTime:0.0003s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('7','10','11','','13')  [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `music_zan` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `music_zan` WHERE `user_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`car`,`name` FROM `music_user` WHERE `id` IN ('7','10','11','','13')  [ RunTime:0.0003s ]
+
+[ 2018-01-04T15:04:55+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0127s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('5')  [ RunTime:0.0003s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('7','10','11','','13')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `music_zan` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `music_zan` WHERE `user_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`car`,`name` FROM `music_user` WHERE `id` IN ('7','10','11','','13')  [ RunTime:0.0003s ]
+
+[ 2018-01-04T15:05:45+08:00 ] ::1 /appmusic/index.php/home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0107s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 12  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('5')  [ RunTime:0.0003s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('7','10','11','','13')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `music_zan` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `music_zan` WHERE `user_id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`car`,`name` FROM `music_user` WHERE `id` IN ('7','10','11','','13')  [ RunTime:0.0004s ]
+

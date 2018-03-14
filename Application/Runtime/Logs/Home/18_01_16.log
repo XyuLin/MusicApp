@@ -1,0 +1,13 @@
+[ 2018-01-16T12:18:19+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019694s ]
+ERR: 非法操作:index
+

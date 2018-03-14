@@ -1,0 +1,65 @@
+<layout name="layout2"/>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>添加分类</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="__SELF__" enctype="multipart/form-data">
+      <div class="form-group">
+        <div class="label">
+          <label>分类名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="attr_name" placeholder=""  data-validate="required:分类姓名" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <div class="label">
+          <label>所属类型：</label>
+        </div>
+        <div class="field">
+          <select name="type_id" class="input w50">
+            <foreach name="type_info" item="v">
+                <option value="{$v['id']}">{$v['type_name']}</option>
+            </foreach>
+          </select>
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>属性类型：</label>
+        </div>
+        <div class="field">
+          <textarea id="brand_list" name="attr_option_values"></textarea>
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>属性可选值：</label>
+        </div>
+        <div class="field">
+          唯一<input type="radio" name="attr_sel" value="唯一" <?php if($info['attr_sel'] == '') echo 'checked="checked"'; ?> />
+          可选<input type="radio" name="attr_sel" value="可选" <?php if($info['attr_sel'] == '') ; ?> />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>

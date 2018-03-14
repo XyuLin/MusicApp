@@ -1,0 +1,46 @@
+<layout name="layout2"/>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>填写订单</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="__SELF__" enctype="multipart/form-data">
+      <div class="form-group">
+        <div class="label">
+          <label>分类姓名：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="type_name" data-validate="required:分类姓名" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <div class="label">
+          <label>分类级别：</label>
+        </div>
+        <div class="field">
+          <select name="parent_id" class="input w50">
+            <option class="label" value="0">顶级分类</option>
+            <foreach name="typeData" item="v">
+            <option value="{$v['id']}" ><?php echo str_repeat('-',2*$v['level']).$v['type_name']; ?></option>
+            </foreach>
+          </select>
+          <div class="tips"></div>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交订单</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>

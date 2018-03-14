@@ -1,0 +1,146 @@
+[ 2018-01-12T13:52:41+08:00 ] ::1 /appMusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2018-01-12T15:10:09+08:00 ] ::1 /appmusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2018-01-12T17:18:06+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM music_musical a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34 
+ERR: 1054:Unknown column 'goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM music_musical a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34 
+
+[ 2018-01-12T17:18:28+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0069s ]
+ERR: 1054:Unknown column 'goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM music_musical a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34 
+ERR: 1054:Unknown column 'goods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM music_musical a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34 
+
+[ 2018-01-12T17:20:04+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0125s ]
+SQL: SELECT * FROM music_goodsattr a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2018-01-12T17:20:18+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0134s ]
+SQL: SELECT * FROM music_goodsattr a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2018-01-12T17:22:44+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0128s ]
+SQL: SELECT * FROM music_goodsattr a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2018-01-12T17:32:48+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0137s ]
+SQL: SELECT * FROM music_goodsattr a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2018-01-12T17:33:10+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0100s ]
+SQL: SELECT * FROM music_goodsattr a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2018-01-12T17:33:24+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0126s ]
+SQL: SELECT * FROM music_goodsattr a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2018-01-12T17:36:04+08:00 ] ::1 /appmusic/index.php/home/musical/showMusicalDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `music_goodsattr` [ RunTime:0.0084s ]
+SQL: SELECT * FROM music_goodsattr a LEFT JOIN music_attribute b ON a.attr_id = b.id  WHERE `goods_id` = 34  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+

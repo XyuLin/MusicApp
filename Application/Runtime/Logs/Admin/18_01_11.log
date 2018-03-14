@@ -1,0 +1,575 @@
+[ 2018-01-11T14:59:57+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-01-11T15:00:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2018-01-11T15:00:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2018-01-11T15:10:40+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2018-01-11T15:10:41+08:00 ] 127.0.0.1 /Public/Admin/css/pintuer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-01-11T15:10:41+08:00 ] 127.0.0.1 /Public/Admin/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-01-11T15:10:41+08:00 ] 127.0.0.1 /Public/Admin/css/h_banner.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-01-11T15:10:41+08:00 ] 127.0.0.1 /Public/Admin/Js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-01-11T15:10:41+08:00 ] 127.0.0.1 /Public/Admin/Js/pintuer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+ERR: 无法加载控制器:Public
+
+[ 2018-01-11T15:10:41+08:00 ] 127.0.0.1 /Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-01-11T15:15:32+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-01-11T15:15:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2018-01-11T15:15:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-01-11T15:16:03+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+
+[ 2018-01-11T15:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-01-11T15:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2018-01-11T15:17:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Admin\Model\AdminModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `music_admin` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `music_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-01-11T15:17:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2018-01-11T15:17:38+08:00 ] 127.0.0.1 /index.php/Admin/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-01-11T15:17:38+08:00 ] 127.0.0.1 /index.php/Admin/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-01-11T15:17:38+08:00 ] 127.0.0.1 /index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-01-11T15:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+
+[ 2018-01-11T15:17:42+08:00 ] 127.0.0.1 /index.php/Admin/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-01-11T15:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2018-01-11T15:18:20+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+
+[ 2018-01-11T15:18:20+08:00 ] 127.0.0.1 /index.php/Admin/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-01-11T15:18:20+08:00 ] 127.0.0.1 /index.php/Admin/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-01-11T15:18:20+08:00 ] 127.0.0.1 /index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-01-11T15:18:43+08:00 ] 127.0.0.1 /index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-01-11T15:18:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/log_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Admin\Model\AdminModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `music_admin` [ RunTime:0.0134s ]
+
+[ 2018-01-11T15:18:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2018-01-11T15:18:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2018-01-11T15:19:06+08:00 ] 127.0.0.1 /index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-01-11T15:19:09+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-01-11T15:19:09+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2018-01-11T15:30:04+08:00 ] 127.0.0.1 /index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-01-11T15:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2018-01-11T15:30:07+08:00 ] 127.0.0.1 /index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+

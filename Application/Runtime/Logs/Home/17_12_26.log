@@ -1,0 +1,1410 @@
+[ 2017-12-26T09:26:47+08:00 ] 127.0.0.1 /appmusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2017-12-26T10:45:33+08:00 ] 127.0.0.1 /appmusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2017-12-26T13:43:17+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2017-12-26T13:44:22+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2017-12-26T13:44:23+08:00 ] 127.0.0.1 /appmusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2017-12-26T13:44:33+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2017-12-26T13:44:44+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-26T13:45:06+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T13:45:43+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+
+[ 2017-12-26T13:54:21+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 44 行.
+NOTIC: [8] Undefined index: subjects_id E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 46 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN () 
+
+[ 2017-12-26T13:54:29+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 44 行.
+
+[ 2017-12-26T13:55:49+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T13:57:29+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T13:57:44+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T13:58:00+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T13:58:10+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T13:58:49+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: subjects_id E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 50 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN () 
+
+[ 2017-12-26T13:59:08+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: subjects_id E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 50 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN () 
+
+[ 2017-12-26T13:59:52+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:02:07+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0010s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 63 行.
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('5','8','9','10','13','15','16','17','18','19')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:02:13+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:08:26+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:08:46+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:11:56+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:13:19+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:13:45+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:13:46+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:14:06+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:14:29+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:14:57+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:15:02+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:15:33+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2017-12-26T14:15:37+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0020s ]
+
+[ 2017-12-26T14:16:22+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:17:04+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:17:32+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:18:50+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:19:07+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:19:20+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:22:00+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:24:36+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:24:42+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:25:56+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0010s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:26:10+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0010s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:38:44+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:39:44+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:40:45+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:40:54+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:41:12+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:41:57+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:41:58+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:42:04+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:42:17+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:43:01+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:44:14+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:46:40+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects`  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:47:10+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:48:52+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:49:32+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:49:41+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:50:26+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:51:26+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:52:42+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-26T14:52:53+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:53:03+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:55:09+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:55:16+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:55:34+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:56:06+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:56:46+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T14:58:47+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0010s ]
+
+[ 2017-12-26T14:59:46+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:00:41+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php 第 127 行.
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0010s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:01:23+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0010s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:01:45+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:02:18+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:02:25+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0010s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:02:37+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:03:09+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0010s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:03:41+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:03:52+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:03:52+08:00 ] 127.0.0.1 /appmusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2017-12-26T15:04:15+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:05:02+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user` WHERE `id` IN ('2','1')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:05:37+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0010s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:06:03+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0010s ]
+
+[ 2017-12-26T15:06:44+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0010s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:06:52+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user`  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:07:01+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user` WHERE `id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:07:23+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_classmate_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user` WHERE `id` IN ('6','7','','11','12','13')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T15:17:10+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+ERR: Think\Model:follow_mutua方法不存在！
+
+[ 2017-12-26T15:17:41+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Home\Model\FollowModel::follow_mutual(), called in E:\PHP\WWW\appMusic\Application\Home\Controller\QuanController.class.php on line 159 and defined E:\PHP\WWW\appMusic\Application\Home\Model\FollowModel.class.php 第 31 行.
+SQL: SELECT * FROM `music_follow` WHERE `id` = 10  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-26T15:17:53+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 10  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-26T15:19:18+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `follow_user_id` = 10  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-26T15:22:24+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `follow_user_id` = 10  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-26T15:29:36+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` WHERE `follow_user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_follow`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1054:Unknown column 'carr' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`carr` FROM `music_user` WHERE `id` IN (Array,Array,Array) 
+ERR: 1054:Unknown column 'carr' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`carr` FROM `music_user` WHERE `id` IN (Array,Array,Array) 
+
+[ 2017-12-26T15:29:48+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `follow_user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_follow`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT `name`,`car` FROM `music_user` WHERE `id` IN (Array,Array,Array) 
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT `name`,`car` FROM `music_user` WHERE `id` IN (Array,Array,Array) 
+
+[ 2017-12-26T15:30:04+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` WHERE `follow_user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_follow`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: data E:\PHP\WWW\appMusic\Application\Home\Model\FollowModel.class.php 第 52 行.
+
+[ 2017-12-26T15:32:29+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `follow_user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_follow`  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`car` FROM `music_user` WHERE `id` IN ('10','2','2')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T16:21:39+08:00 ] ::1 /appmusic/index.php/Home/Quan/get_follow_mutual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.120007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.059003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059003s ]
+ERR: 非法操作:get_follow_mutual
+
+[ 2017-12-26T17:19:25+08:00 ] ::1 /appmusic/index.php/Home/Quan/show_teacher_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` IN ('2','5','7')  [ RunTime:0.0000s ]
+SQL: SELECT `send_content` FROM `music_user_dtai` WHERE `user_id` IN ('2','1')  [ RunTime:0.0000s ]
+SQL: SELECT `car`,`name` FROM `music_user` WHERE `id` IN ('2','1')  [ RunTime:0.0000s ]
+
+[ 2017-12-26T18:07:29+08:00 ] ::1 /appmusic/index.php/Home/index/showTeach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getTeach(), called in E:\PHP\WWW\appMusic\Application\Home\Controller\IndexController.class.php on line 17 and defined E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: name E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 50 行.
+SQL: SELECT * FROM `music_user` WHERE `defaul` = '1'  [ RunTime:0.0000s ]
+
+[ 2017-12-26T18:07:30+08:00 ] 127.0.0.1 /appmusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2017-12-26T18:07:55+08:00 ] ::1 /appmusic/index.php/Home/index/showTeach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::getTeach(), called in E:\PHP\WWW\appMusic\Application\Home\Controller\IndexController.class.php on line 17 and defined E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: name E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 50 行.
+SQL: SELECT * FROM `music_user` WHERE `defaul` = '1'  [ RunTime:0.0000s ]
+
+[ 2017-12-26T18:09:37+08:00 ] ::1 /appmusic/index.php/Home/index/showTeach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\PHP\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_user` WHERE `name` LIKE '%晓%' AND `defaul` = '1'  [ RunTime:0.0010s ]
+

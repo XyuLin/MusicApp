@@ -1,0 +1,2596 @@
+[ 2017-12-25T10:33:46+08:00 ] ::1 /appmusic/index.php/Home/Musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'php39'
+
+[ 2017-12-25T10:34:50+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'php39'
+
+[ 2017-12-25T10:35:17+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:17+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:18+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:18+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T10:35:18+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:19+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-25T10:35:19+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T10:35:19+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:20+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:20+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T10:35:20+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T10:35:20+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T10:35:24+08:00 ] ::1 /appmusic/index.php/Home/Musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-25T10:35:44+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:44+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:35:45+08:00 ] ::1 /appmusic/index.php/Home/musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T10:36:05+08:00 ] ::1 /appmusic/index.php/Home/Musical/getMusical
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_musical` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_musical`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:41:44+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:42:00+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:42:00+08:00 ] 127.0.0.1 /appmusic/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-25T11:42:32+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:42:33+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:43:38+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:44:38+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:44:52+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: chkcode E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:45:23+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:45:31+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:45:46+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:45:54+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: teacher_car E:\PHP\WWW\appMusic\Application\Admin\Model\TeacherModel.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:46:14+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: teacher_car E:\PHP\WWW\appMusic\Application\Admin\Model\TeacherModel.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:47:10+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:47:34+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:48:00+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:48:19+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: chkcode E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:48:30+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: teacher_car E:\PHP\WWW\appMusic\Application\Admin\Model\TeacherModel.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:48:46+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: teacher_car E:\PHP\WWW\appMusic\Application\Admin\Model\TeacherModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:48:56+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:49:19+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: teacher_car E:\PHP\WWW\appMusic\Application\Admin\Model\TeacherModel.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:49:29+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:50:18+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: teacher_car E:\PHP\WWW\appMusic\Application\Admin\Model\TeacherModel.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:51:05+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:51:10+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:51:19+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: chkcode E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:51:30+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_teacher` (`username`,`password`,`addtime`) VALUES ('2147483647','96e79218965eb72c92a549dd5a330112','2017-12-25 11:51:30') [ RunTime:0.0220s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T11:52:19+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:54:50+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:56:17+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:56:32+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T11:56:37+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T11:57:12+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_teacher` (`username`,`password`,`addtime`) VALUES ('2147483647','96e79218965eb72c92a549dd5a330112','2017-12-25 11:57:12') [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T11:58:38+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T12:00:00+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T12:00:09+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T12:00:56+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T12:01:12+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [2] preg_match(): No ending delimiter '^' found E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T12:01:54+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_teacher` (`username`,`password`,`phoen`,`addtime`) VALUES ('2147483647','96e79218965eb72c92a549dd5a330112','13585578641','2017-12-25 12:01:54') [ RunTime:0.0020s ]
+
+[ 2017-12-25T12:03:02+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T12:03:35+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T12:03:46+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = 2147483647 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_teacher` (`username`,`password`,`addtime`) VALUES ('2147483647','96e79218965eb72c92a549dd5a330112','2017-12-25 12:03:46') [ RunTime:0.0010s ]
+
+[ 2017-12-25T12:39:41+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = '13818508184' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_teacher` (`username`,`password`,`addtime`) VALUES ('13818508184','96e79218965eb72c92a549dd5a330112','2017-12-25 12:39:41') [ RunTime:0.0010s ]
+
+[ 2017-12-25T12:40:11+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_teacher` WHERE `username` = '13818508184' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: teacher_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: education_age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_teacher` (`username`,`password`,`addtime`) VALUES ('13818508184','96e79218965eb72c92a549dd5a330112','2017-12-25 12:40:11') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T12:40:29+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_students` WHERE `username` = '13818508184' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: stu_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: chkcode E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T12:41:07+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_students` WHERE `username` = '13818508184' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: stu_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_students` (`username`,`password`,`addtime`) VALUES ('13818508184','96e79218965eb72c92a549dd5a330112','2017-12-25 12:41:07') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_students` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-25T13:32:28+08:00 ] ::1 /appmusic/index.php/Home/teacher/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: cpassword E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+SQL: SELECT * FROM `music_students` WHERE `username` = '13818508184' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: age E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: sex E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: stu_carid E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto E:\PHP\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `music_students` (`username`,`password`,`addtime`) VALUES ('13818508184','96e79218965eb72c92a549dd5a330112','2017-12-25 13:32:28') [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_students` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T13:48:22+08:00 ] ::1 /appmusic/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-25T13:48:47+08:00 ] ::1 /appmusic/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-25T13:49:09+08:00 ] ::1 /appmusic/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-25T13:49:29+08:00 ] ::1 /appmusic/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-25T13:50:16+08:00 ] ::1 /appmusic/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-25T13:50:31+08:00 ] ::1 /appmusic/index.php/Home/index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_teacher`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-25T13:50:35+08:00 ] ::1 /appmusic/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_teacher`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T13:51:42+08:00 ] ::1 /appmusic/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_teacher`  [ RunTime:0.0010s ]
+
+[ 2017-12-25T13:52:04+08:00 ] ::1 /appmusic/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_teacher`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T14:17:58+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_user_dtai b ON a.befollow_user_id = user_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = null  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T14:18:30+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0050s ]
+SQL: SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_user_dtai b ON a.befollow_user_id = user_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = null  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T14:18:59+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_user_dtai b ON a.befollow_user_id = user_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 3  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T14:40:32+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_students` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_students` WHERE `kemu_id` = '4'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:10:10+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_students` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_students` WHERE `kemu_id` = '4'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:10:48+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_students` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_students` WHERE `kemu_id` = '4'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:12:34+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_students` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_students` WHERE `kemu_id` = '4'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:14:45+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_students` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_students` WHERE `kemu_id` = '4'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('2','3','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:15:11+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_students` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_students` WHERE `kemu_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('2','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:15:39+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_students` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_students` WHERE `kemu_id` = '4'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('2','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:29:07+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+ERR: 1146:Table 'music_app.music_stu_subject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subject`
+ERR: 1146:Table 'music_app.music_stu_subject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subject`
+
+[ 2017-12-25T15:29:45+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: subject_id E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 21 行.
+SQL: SELECT * FROM `music_stu_subject`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14')  [ RunTime:0.0010s ]
+
+[ 2017-12-25T15:30:25+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: subject_id E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 21 行.
+SQL: SELECT * FROM `music_stu_subject`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','5','6','7','8','9','10','11','12','13','14')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T15:32:42+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-25T15:33:32+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:35:10+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:37:11+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:37:55+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:38:19+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:38:21+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:38:21+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:38:48+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:38:54+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:39:13+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:39:15+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:41:45+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:41:46+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:41:46+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:41:47+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:47:17+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 32 行.
+NOTIC: [2] array_replace(): Argument #1 is not an array E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 32 行.
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','6')  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T15:47:34+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 32 行.
+NOTIC: [2] array_replace(): Argument #1 is not an array E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 32 行.
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:48:36+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:49:46+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:50:05+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','','3','4','6')  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T15:50:13+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T15:52:39+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','2','3','4','6')  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T15:52:48+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:54:38+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:54:39+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:54:39+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:54:40+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:54:40+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:55:37+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T15:55:55+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:02:31+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0010s ]
+
+[ 2017-12-25T16:03:17+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:03:49+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:07:25+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject`  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:16:01+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: subjects_id E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 21 行.
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = null  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:16:22+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: subjects_id E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 21 行.
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = null  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:17:13+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:17:49+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:20:56+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:21:06+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:21:38+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:21:55+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+
+[ 2017-12-25T16:22:12+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T16:22:28+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','','3','4','6')  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\PHP\WWW\appMusic\Application\Home\Controller\ClassStuController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T16:22:54+08:00 ] ::1 /appmusic/index.php/Home/ClassStu/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_user_dtai` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `subjects_id` = '4'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user_dtai` WHERE `user_id` IN ('1','','3','4','6')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T17:57:04+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:01:33+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:02:36+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:02:38+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:03:09+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:03:11+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:03:11+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:03:11+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:04:02+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'b.send_content' in 'field list'
+ [ SQL语句 ] : SELECT c.stu_car,b.send_content FROM music_follow a LEFT JOIN music_stu_dtai b ON a.befollow_user_id = b.stu_id
+                    LEFT JOIN music_students c ON a.befollow_user_id = c.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:04:19+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T18:04:35+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T18:04:57+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T18:06:43+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T18:07:09+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T18:08:29+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-25T18:08:40+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T18:09:10+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T18:09:23+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-25T18:09:50+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T18:10:24+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'c.teacher_car' in 'field list'
+ [ SQL语句 ] : SELECT c.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2 
+ERR: 1054:Unknown column 'c.teacher_car' in 'field list'
+ [ SQL语句 ] : SELECT c.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2 
+
+[ 2017-12-25T18:11:02+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+
+[ 2017-12-25T18:21:28+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+
+[ 2017-12-25T18:21:28+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+
+[ 2017-12-25T18:22:31+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T18:22:55+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T18:23:37+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T18:24:48+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T18:25:08+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-25T18:29:25+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-25T18:29:36+08:00 ] ::1 /appmusic/index.php/Home/Quan/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_follow` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `music_follow` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT b.teacher_car,c.send_content FROM music_follow a LEFT JOIN music_teacher b ON a.befollow_user_id = b.id
+                    LEFT JOIN music_user_dtai c ON c.user_id = b.id   WHERE `follow_user_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

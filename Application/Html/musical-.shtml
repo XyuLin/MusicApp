@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title></title>
+    <link rel="stylesheet" href="/appmusic/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/appmusic/Public/Admin/css/admin.css">
+    <link rel="stylesheet" href="/appmusic/Public/Admin/css/h_banner.css">
+    <script src="/appmusic/Public/Admin/Js/jquery.js"></script>
+    <script src="/appmusic/Public/Admin/Js/pintuer.js"></script>
+</head>
+
+
+<body>
+<form method="post" action="" id="listform">
+  <div class="panel-head"><strong class="icon-reorder"> 乐器列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
+  <div class="padding border-bottom">
+    <ul class="search" style="padding-left:10px;">
+      <li> <a class="button border-main icon-plus-square-o" href="/appmusic/index.php/Admin/Musical/add.html"> 添加乐器</a> </li>
+      <li>搜索：</li>
+      <li>
+        <input type="text" placeholder="请输入搜索关键字" name="keywords" class="input" style="width:250px; line-height:17px;display:inline-block" />
+
+        <a href="javascript:void(0)" class="button border-main icon-search" onclick="changesearch()" > 搜索</a></li>
+    </ul>
+  </div>
+  <table class="table table-hover text-center">
+    <tr>
+      <th width="1%" style="text-align:left; padding-left:20px;">ID</th>
+      <th width="8%">乐器名称</th>
+      <th width="8%">乐器图片</th>
+      <th width="8%">品牌</th>
+      <th width="3%">销量</th>
+      <th width="8%">所属类型</th>
+      <th width="15%">属性信息</th>
+      <th width="15%">乐器说明</th>
+      <th width="10%">上架时间</th>
+      <th width="25%">操作</th>
+    </tr>
+
+    <tr>
+        <td style="text-align:left; padding-left:20px;">19</td>
+        <td>发</td>
+        <td><img style="width: 55px" src="/appmusic/Public/Upload/Goods/2017-12-20/5a3a36a7b9140.jpg"/></td>
+        <td></td>
+        <td>0</td>
+        <td>乐器</td>
+        <td></td>
+        <td>&lt;p&gt;山东干豆腐干&lt;/p&gt;</td>
+        <td>2017-12-20 18:08:39</td>
+        <td>
+          <div class="button-group">
+            <a class="button border-main" href="/appmusic/index.php/Admin/musical/goods_lst/id/19.html"><span class="icon-edit"></span> 查看库存</a>
+            <a class="button border-main" href="/appmusic/index.php/Admin/Musical/edit/id/19.html"><span class="icon-edit"></span> 修改</a>
+            <a class="button border-red" href="/appmusic/index.php/Admin/Musical/del/id/19.html" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span> 删除</a>
+          </div>
+        </td>
+      </tr><tr>
+        <td style="text-align:left; padding-left:20px;">20</td>
+        <td>发的</td>
+        <td><img style="width: 55px" src="/appmusic/Public/Upload/Goods/2017-12-20/5a3a36eba2d55.jpg"/></td>
+        <td></td>
+        <td>0</td>
+        <td>乐器</td>
+        <td></td>
+        <td>&lt;p&gt;个人的&lt;/p&gt;</td>
+        <td>2017-12-20 18:09:47</td>
+        <td>
+          <div class="button-group">
+            <a class="button border-main" href="/appmusic/index.php/Admin/musical/goods_lst/id/20.html"><span class="icon-edit"></span> 查看库存</a>
+            <a class="button border-main" href="/appmusic/index.php/Admin/Musical/edit/id/20.html"><span class="icon-edit"></span> 修改</a>
+            <a class="button border-red" href="/appmusic/index.php/Admin/Musical/del/id/20.html" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span> 删除</a>
+          </div>
+        </td>
+      </tr><tr>
+        <td style="text-align:left; padding-left:20px;">21</td>
+        <td>沙发</td>
+        <td><img style="width: 55px" src="/appmusic/Public/Upload/Goods/2017-12-20/5a3a374328c39.jpg"/></td>
+        <td></td>
+        <td>0</td>
+        <td>乐器</td>
+        <td>金色,蓝色</td>
+        <td>&lt;p&gt;党费的火锅店&lt;/p&gt;</td>
+        <td>2017-12-20 18:11:15</td>
+        <td>
+          <div class="button-group">
+            <a class="button border-main" href="/appmusic/index.php/Admin/musical/goods_lst/id/21.html"><span class="icon-edit"></span> 查看库存</a>
+            <a class="button border-main" href="/appmusic/index.php/Admin/Musical/edit/id/21.html"><span class="icon-edit"></span> 修改</a>
+            <a class="button border-red" href="/appmusic/index.php/Admin/Musical/del/id/21.html" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span> 删除</a>
+          </div>
+        </td>
+      </tr><tr>
+        <td style="text-align:left; padding-left:20px;">22</td>
+        <td>风情</td>
+        <td><img style="width: 55px" src="/appmusic/Public/Upload/Goods/2017-12-20/5a3a407d8b6d3.jpg"/></td>
+        <td></td>
+        <td>0</td>
+        <td>乐器</td>
+        <td></td>
+        <td>&lt;p&gt;对方是个大人给他&lt;/p&gt;</td>
+        <td>2017-12-20 18:50:37</td>
+        <td>
+          <div class="button-group">
+            <a class="button border-main" href="/appmusic/index.php/Admin/musical/goods_lst/id/22.html"><span class="icon-edit"></span> 查看库存</a>
+            <a class="button border-main" href="/appmusic/index.php/Admin/Musical/edit/id/22.html"><span class="icon-edit"></span> 修改</a>
+            <a class="button border-red" href="/appmusic/index.php/Admin/Musical/del/id/22.html" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span> 删除</a>
+          </div>
+        </td>
+      </tr><tr>
+        <td style="text-align:left; padding-left:20px;">23</td>
+        <td>是的范德萨</td>
+        <td><img style="width: 55px" src="/appmusic/Public/Upload/"/></td>
+        <td></td>
+        <td>0</td>
+        <td>乐器</td>
+        <td></td>
+        <td>&lt;p&gt;&lt;br/&gt;&lt;em&gt;按时感受到公司&lt;/em&gt;&lt;/p&gt;</td>
+        <td>2017-12-21 09:19:12</td>
+        <td>
+          <div class="button-group">
+            <a class="button border-main" href="/appmusic/index.php/Admin/musical/goods_lst/id/23.html"><span class="icon-edit"></span> 查看库存</a>
+            <a class="button border-main" href="/appmusic/index.php/Admin/Musical/edit/id/23.html"><span class="icon-edit"></span> 修改</a>
+            <a class="button border-red" href="/appmusic/index.php/Admin/Musical/del/id/23.html" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span> 删除</a>
+          </div>
+        </td>
+      </tr>  </table>
+  <div class="panel admin-panel margin-top" style="width: 1120px;height: 30px;">
+    <span style="float: left;margin: 6px 0 2px 500px;"><font color="red"><div>  <span class="current">1</span><a class="num" href="/appmusic/index.php/Admin/Musical/lst/p/2.html">2</a><a class="num" href="/appmusic/index.php/Admin/Musical/lst/p/3.html">3</a> <a class="next" href="/appmusic/index.php/Admin/Musical/lst/p/2.html">下一页</a> </div></font></span>
+  </div>
+  </div>
+</form>
+<script type="text/javascript">
+
+//搜索
+function changesearch(){	
+		
+}
+
+//单个删除
+function del(id,mid,iscid){
+	if(confirm("您确定要删除吗?")){
+		
+	}
+}
+
+//全选
+$("#checkall").click(function(){ 
+  $("input[name='id[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+//批量删除
+function DelSelect(){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		var t=confirm("您确认要删除选中的内容吗？");
+		if (t==false) return false;		
+		$("#listform").submit();		
+	}
+	else{
+		alert("请选择您要删除的内容!");
+		return false;
+	}
+}
+
+//批量排序
+function sorts(){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){	
+		
+		$("#listform").submit();		
+	}
+	else{
+		alert("请选择要操作的内容!");
+		return false;
+	}
+}
+
+
+//批量首页显示
+function changeishome(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		
+		$("#listform").submit();	
+	}
+	else{
+		alert("请选择要操作的内容!");		
+	
+		return false;
+	}
+}
+
+//批量推荐
+function changeisvouch(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		
+		
+		$("#listform").submit();	
+	}
+	else{
+		alert("请选择要操作的内容!");	
+		
+		return false;
+	}
+}
+
+//批量置顶
+function changeistop(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){		
+		
+		$("#listform").submit();	
+	}
+	else{
+		alert("请选择要操作的内容!");		
+	
+		return false;
+	}
+}
+
+
+//批量移动
+function changecate(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){		
+		
+		$("#listform").submit();		
+	}
+	else{
+		alert("请选择要操作的内容!");
+		
+		return false;
+	}
+}
+
+//批量复制
+function changecopy(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){	
+		var i = 0;
+	    $("input[name='id[]']").each(function(){
+	  		if (this.checked==true) {
+				i++;
+			}		
+	    });
+		if(i>1){ 
+	    	alert("只能选择一条信息!");
+			$(o).find("option:first").prop("selected","selected");
+		}else{
+		
+			$("#listform").submit();		
+		}	
+	}
+	else{
+		alert("请选择要复制的内容!");
+		$(o).find("option:first").prop("selected","selected");
+		return false;
+	}
+}
+
+</script>
+</body>
+
+
+</html>

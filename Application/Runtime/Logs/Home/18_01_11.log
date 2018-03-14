@@ -1,0 +1,83 @@
+[ 2018-01-11T14:59:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html D:\www\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+ERR: 非法操作:index
+
+[ 2018-01-11T15:12:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+ERR: 非法操作:index
+
+[ 2018-01-11T15:13:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+ERR: 非法操作:index
+
+[ 2018-01-11T15:15:37+08:00 ] 127.0.0.1 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+NOTIC: [2] fopen(.././index_html_cache.lock): failed to open stream: No such file or directory E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 31 行.
+NOTIC: [2] flock() expects parameter 1 to be resource, boolean given E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 32 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+ERR: 非法操作:index
+
+[ 2018-01-11T15:18:42+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2018-01-11T15:18:42+08:00 ] 127.0.0.1 /index.php/Home/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-01-11T15:19:06+08:00 ] 127.0.0.1 /index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
+[ 2018-01-11T15:19:06+08:00 ] 127.0.0.1 /index.php/Home/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-11T15:30:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Index/index.html E:\PHP\WWW\appMusic\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 118 行.
+
