@@ -20,6 +20,10 @@ class LoginController extends Controller{
         $Verify->entry();
     }
 
+    public function avatar()
+    {
+        $this->display();
+    }
 
 
     /******************登录**************/

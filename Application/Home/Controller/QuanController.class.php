@@ -22,7 +22,7 @@ class QuanController extends Controller
         $id = I('get.id');
         $model = D('follow');
         $info = $model->follow_lst($id);
-        return return_json($info);
+        $this->ajaxReturn($info);
     }
 
 
@@ -115,7 +115,7 @@ class QuanController extends Controller
 //        echo'<pre>';
 //        var_dump($data);die;
 
-       return return_json($data);
+        $this->ajaxReturn($data);
     }
 
 
@@ -134,13 +134,15 @@ class QuanController extends Controller
         $send_v_model = D('send_subjects');
 //        $getId = 10;                                                                        # 当前登录的学生id
         $data = $sub_model->where(array('stu_id'=>array('eq',$getId)))->select();             # 获得当前学生所学的所有课程
+
         $id_arr = array();
         foreach($data as $v){
             $id_arr[] = $v['subjects_id'];
-        }
+        };
 
         $id = implode(',',$id_arr);
         $info = $send_v_model->where(array('id'=>array('in',$id)))->select();
+
 
         $teacher_all_id = array();
         foreach($info as $v){
@@ -194,7 +196,7 @@ class QuanController extends Controller
         }
         $pnum = ceil(count($teacher_dtai) / $size);
         $data = array_slice($teacher_dtai, ($page-1)*$size, $size);
-        return return_json($data);
+        $this->ajaxReturn($data);
     }
 
 
@@ -211,7 +213,7 @@ class QuanController extends Controller
         $id = I('get.id');
         $model = D('follow');
         $data = $model->follow_mutual($id);
-        return return_json($data);
+        $this->ajaxReturn($data);
     }
 
 

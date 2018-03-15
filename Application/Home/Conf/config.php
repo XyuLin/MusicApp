@@ -1,5 +1,6 @@
 <?php
 return array(
+    'TOKEN'     => 'sdfadf644849449aefasdf',
     'DB_TYPE'               =>  'mysqli',       # 数据库类型
     'DB_HOST'               =>  'localhost',    # 服务器地址
     'DB_NAME'               =>  'music_app',    # 数据库名
@@ -19,6 +20,5 @@ return array(
     'HTML_CACHE_RULES' => array(
         'Index:index'=>array('index',86400),
         'Musical:lst'=>array('musical-{p}',86400),
-
     ),
 );

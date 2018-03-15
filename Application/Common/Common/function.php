@@ -46,3 +46,63 @@ function V($data){
 }
 
 
+function sendCode($phone,$code)
+{
+      $post_data = array();
+      $post_data['userid'] = '400';
+
+      $post_data['account'] = 'zyjy';
+
+      $post_data['password'] = 'zyjy123';
+      $post_data['cmd'] = '1'; //指令1表示验证帐号
+      $a = rand(1000,9999);
+  
+      $post_data['mobile'] = $phone;
+      $post_data['content'] = "【艺家教】你的验证码为[$code]五分钟内有效。";
+      $post_data['sendTime'] = ''; //指令1表示验证帐号
+      $post_data['action'] = 'send'; //指令1表示验证帐号
+      $post_data['cmd'] = '1'; //指令1表示验证帐号
+
+      $post_data['extno'] = ''; //指令1表示验证帐号
+      $url='http://123.firesms.cn/sms.aspx';
+      $o='';
+
+
+   
+      foreach ($post_data as $k=>$v)
+      {
+         $o.="$k=".$v.'&';
+      }
+
+
+      $post_data=substr($o,0,-1);
+
+
+
+      // 初始化一个curl会话
+      $ch = curl_init();
+      
+
+      $this_header = array("content-type: application/x-www-form-urlencoded; charset=UTF-8");
+
+
+      curl_setopt($ch,CURLOPT_HTTPHEADER,$this_header);
+
+      //设置提交的方式(post);
+      curl_setopt($ch, CURLOPT_POST, 1);
+      // 设置header
+      curl_setopt($ch, CURLOPT_HEADER, 0);
+      // 设置需要抓取的URL(http://116.255.238.170:7518/sms.aspx)
+      curl_setopt($ch, CURLOPT_URL,$url);
+      // curl_setopt($ch, CURLOPT_RETURNTRANSFER,$url);
+      //请求的参数 你吧                                                                                                             
+      curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+      //curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果需要将结果直接返回到变量里，那加上这句。
+
+
+      $result = curl_exec($ch);
+
+
+
+}
+

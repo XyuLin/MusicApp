@@ -10,12 +10,12 @@ namespace Home\Model;
 use Think\Model;
 
 class FollowModel extends Model{
-    protected $insertFields = array('follow_user_id','befollow_user_id','addtime');
+    protected $insertFields = array('follow_user_id','befollow_user_id','follow_time');
     protected $_validate = array(
     );
 
     public function _before_insert(&$data){
-        $data['addtime'] = date('Y-m-d H:i:s',time());
+        $data['follow_time'] = date('Y-m-d H:i:s',time());
     }
 
     public function follow_lst($id){
@@ -35,7 +35,7 @@ class FollowModel extends Model{
 
 
     //查找互相关注的人
-    public function follow_mutual(){   //待传过来的当前登录的用户id
+    public function follow_mutual($id){   //待传过来的当前登录的用户id
         $id = 10;
         if($id){
             $info = $this->where(array('follow_user_id'=>array('eq',$id)))->select();
@@ -43,14 +43,17 @@ class FollowModel extends Model{
             foreach($info as $v){
                 $userId[] = $v['befollow_user_id'];
             }
-
+            $id_arr = [];
             $user_all_id = implode(',',$userId);
-            $us = $this->where(array('follow'=>array('in',$user_all_id) and array('befollow_user_id'=>array('eq',$id))))->select();
-            $us_id = array();
-            foreach ($us as $v){
-                $us_id[] = $v['follow_user_id'];
+
+            $where['follow_user_id'] = ['in',$user_all_id];
+            $where['befollow_user_id'] = ['eq',$id];
+            $us = $this->where($where)->select();
+
+            foreach($us as $k => $v){
+                $id_arr[] = $v['follow_user_id'];
             }
-            $us_id = implode(',',$us_id);
+            $us_id = implode(',',$id_arr);
             if($us){
                 $model = D('user');
                 $data = $model->field('id,name,car')->where(array('id'=>array('in',$us_id)))->select();

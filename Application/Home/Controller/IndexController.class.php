@@ -20,13 +20,24 @@ class IndexController extends Controller
 	$education_age = I('get.education_age');        #老师的教龄
         $model = D('user');
         $data = $model->getTeach($name);
-        return return_json($data);
+        $this->ajaxReturn($data);
     }
 
     public function index()
     {
-        $data = D('user')->find('1');
-        V($data);
-        return return_json($str);
+        $data = [];
+        // 课程类型数据
+        $data['subjectType'] = D('subjectsType')->getType();
+        // banner 数据
+        $data['banner'] = D('banner')->getInfo();
+        // 课程数据
+        $model = D('sendSubjects');
+        if(IS_GET){
+            $screen = I('get.');
+            $data['list'] = $model->getClassList($screen);
+        }
+                
+        $this->ajaxReturn($data);
+
     }
 }

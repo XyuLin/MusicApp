@@ -18,7 +18,18 @@ class FollowController extends Controller{
     {
         if (IS_POST) {
             $model = D('follow');
-            if ($model->create(I('post.'), 1)) {
+            $where['follow_user_id'] = I('post.user');
+            $where['befollow_user_id'] = I('post.befollow');
+            $info = $model->where($where)->find();
+            if($info){
+                $model->delete($info['id']);
+                $data = array(
+                    'code' => 1,
+                    'msg'  => '取消关注成功',
+                );
+                $this->ajaxReturn($data);
+            }
+            if ($model->create($where, 1)) {
                 if ($id = $model->add()) {
 
                     if ($id) {
@@ -33,9 +44,33 @@ class FollowController extends Controller{
                             'msg' => '请求失败',
                         );
                     }
-                    return json_encode($data);
+                    $this->ajaxReturn($data);
                 }
             }
         }
     }
+
+    /**
+    * @param $id 用户id
+    * @param $follow  为 1 是我的粉丝(关注我的用户) 为 2 是我关注的用户 默认为 1 
+    */
+    // 查询关注我的用户 (粉丝)
+    public function getFollowMe($id,$follow = '1')
+    {
+        if($follow == 1){
+            $list = D('follow')->where(['befollow_user_id'=>$id])->getField('follow_user_id',true);
+        }
+
+        if($follow == 2){
+            $list = D('follow')->where(['follow_user_id'=>$id])->getField('befollow_user_id',true);
+        }
+         
+        $model = D('user');
+        $data = [];
+        foreach($list as $key => $value){
+            $data[$key] = $model->getInfo($value);
+        }
+        $this->ajaxReturn($data);
+    }
+
 }

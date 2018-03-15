@@ -8,23 +8,23 @@
 namespace Home\Model;
 use Think\Model;
 class UserModel extends Model{
-    protected $insertFields = array('username','password','cpassword','age','sex','phoen','car','education_age','office_address','defaul','stu_num','home_address','addtime','name');
-    protected $updateFields = array('id','username','password','cpassword','age','sex','phoen','car','education_age','office_address','defaul','stu_num','home_address','addtime','name');
+    protected $insertFields = array('password','cpassword','age','sex','phone','car','education_age','office_address','defaul','stu_num','home_address','addtime','name');
+    protected $updateFields = array('id','password','cpassword','age','sex','phone','car','education_age','office_address','defaul','stu_num','home_address','addtime','name');
     protected $_validate = array(
-        array('username', 'require', '请输入手机号！', 2, 'regex', 3),
-        array('username', '1,11', '请输入11位正确的手机号', 2, 'length', 3),
+        array('phone', 'require', '请输入手机号！', 2, 'regex', 3),
+        array('phone', '1,11', '请输入11位正确的手机号', 2, 'length', 3),
         array('password', 'require', '密码不能为空！', 2, 'regex', 3),
         array('cpassword', 'password', '俩次密码必须一致！', 2, 'confirm', 3),
-        array('username', '', '该s手机已被注册，请直接登录！', 2, 'unique', 3),
+        array('phone', '', '该s手机已被注册，请直接登录！', 2, 'unique', 3),
         array('name', '', '该用户已存在，请重新注册！', 2, 'unique', 3),
-        array('phoen', '/^1[3|4|5|6｜7|8][0-9]{9}$/', '手机格式错误', 2, 'regex', 3),
+        array('phone', '/^1[3|4|5|6｜7|8][0-9]{9}$/', '手机格式错误', 2, 'regex', 3),
     );
+    protected $sexList = [1=>'男','女']; 
+    protected $education = [1=>'大专','本科','硕士','博士','教授']; 
 
     public function _before_insert(&$data){
-        $password = $this->password;
-        $data['password'] = md5($password);
+        $data['password'] = md5($data['password']);
         $data['addtime'] = date('Y-m-d H:i:s',time());
-        $data['phoen'] = $this->username;
         $data['name'] = $this->getRndwords(3);               //默认注册的时候 昵称就等随机名字 这里设置默认取3个汉字
         if(!empty($_FILES['car']['tmp_name'])) {
             if ($_FILES['car']['error'] == 0) {
@@ -123,10 +123,8 @@ class UserModel extends Model{
         }else{
             unset($data['password']);
 	}
-	$id  = I('post.id');
+	    $id  = I('post.id');
         $data['addtime'] = date('Y-m-d H:i:s',time());
-        $data['phoen'] = $this->username;
-        $data['name'] = $this->username;               # 默认注册的时候 昵称就等于用户名就等于电话 如果没有传 则还是等于手机号
         if(!empty($_FILES['car']['tmp_name'])) {
             if ($_FILES['car']['error'] == 0) {
                 $upload = new \Think\Upload();
@@ -146,6 +144,31 @@ class UserModel extends Model{
             } else {
                 return true;
             }
+        }
+    }
+
+    //  查询个人基本信息
+    public function getInfo($id)
+    {
+        $user = $this->find($id);
+        if($user['defaul'] == 1){
+            $user['teacher'] = D('teacher')->find($id);
+        }
+        unset($user['password']);
+        return $user;
+    }
+
+   // 判断是否是老师并返回个人信息
+    public function isTeacher($id)
+    {
+        $model = D('teacher');
+        $user = $model->where(['id'=>$id])->find();
+        if($user){
+            $user['sexName'] = $this->sexList[$user['sex']];
+            $user['educationName'] = $this->education[$user['education']];
+            return $user;
+        }else{
+            return false;
         }
     }
 
