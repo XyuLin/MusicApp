@@ -12,13 +12,17 @@ use Think\Model;
 class SendSubjectsModel extends Model
 {
     // 价格类型
-    protected $price = [1=>'0-500','500-1000','1000-1500','1500-2000','2000-2500','2500-3000','3000'];
+    protected $price = [1=>'0-500','500-1000','1000-1500','1500-2000','2000-2500','2500-3000','3000以上'];
     // 教龄选择
-    protected $educa = [1=>'0-1','1-2','2-3','3-4','4'];
+    protected $educa = [1=>'0-1年','1-2年','2-3年','3-4年','4年以上'];
     // 性别选择
     protected $sex   = [1=>'男','女'];
     // 课时类型
     protected $class_hour_type = ['12课时起售','24课时起售'];
+    // 科目时长
+    protected $class_time_long = ['45分钟','50分钟','55分钟'];
+    // 教学方式
+    protected $teach_mode = ['教师上门','学生上门'];
     /**
      *@param $stu_id /学生的id			  
      * @param $data  /返回学生的上课时间和上课内容 教学老师
@@ -50,26 +54,26 @@ class SendSubjectsModel extends Model
     		$where['subjects_id'] = ['eq',$screen['type']];
     	}
 		
-		// 判断是否选择价格类型
-		if($screen['price']){
-			$price = $this->price[$screen['price']];
-			if($screen['price'] == 7){
-				$where['class_hour_price'] = ['gt',$price];
-			}else{
-				$in = explode('-',$price);
-    			$where['class_hour_price'] = [['EGT',$in[0]],['ELT',$in[1]]];
-			}
-		}    		
+  		// 判断是否选择价格类型
+  		if($screen['price']){
+  			$price = $this->price[$screen['price']];
+  			if($screen['price'] == 7){
+  				$where['class_hour_price'] = ['gt',$price];
+  			}else{
+  				$in = explode('-',$price);
+      			$where['class_hour_price'] = [['EGT',upNumber($in[0])],['ELT',upNumber($in[1])]];
+  			}
+  		}    		
   	
   		// 判断是否选择教龄年限
   		if($screen['educa']){
-  			$educa = $this->educa[$screen['educa']];
-			if($screen['price'] == 5){
-				$wher['education_age'] = ['gt',$educa];
-			}else{
-				$ing = explode('-',$educa);
-    			$wher['education_age'] = [['EGT',$ing[0]],['ELT',$ing[1]]];
-			}
+    			$educa = $this->educa[$screen['educa']];
+  			if($screen['price'] == 5){
+  				$wher['education_age'] = ['gt',$educa];
+  			}else{
+  				$ing = explode('-',$educa);
+      			$wher['education_age'] = [['EGT',upNumber($ing[0])],['ELT',upNumber($ing[1])]];
+  			}
   		}
 
   		// 判断是否选择性别类型
@@ -77,11 +81,11 @@ class SendSubjectsModel extends Model
   			$wher['sex'] = ['eq',$screen['sex']];
   		}
 
-  		// 筛选满足条件的老师
+    		// 筛选满足条件的老师
   		if($wher['sex'] || $wher['education_age']){
   			$teach = D('teacher');
   			$list = $teach->where($wher)->getField('id',true);
-  		}
+  	  }
 
   		// 筛选满足条件老师的课程
   		if($where['subjects_id'] || $where['class_hour_price']){
@@ -114,4 +118,34 @@ class SendSubjectsModel extends Model
     	return $data;
     }
 
+    public function getScreenList()
+    {
+      $list = [
+        'type'  => D('subjectsType')->getType(),
+        'price' => $this->price,
+        'educa' => $this->educa,
+        'sex'   => $this->sex,
+      ];
+      return $list;
+    }
+
+
+    // 获取课程详情
+    public function getInfo($id)
+    {
+      $info = $this->find($id);
+      // 教师信息
+      $info['teacher'] = D('user')->getInfo($info['teacher_id']);
+      // 课程名字
+      $info['subjects_id'] = D('subjectsType')->where(['id'=>$info['subjects_id']])->getField('subject_name');
+      // 教学方式
+      $info['teach_mode'] = $this->teach_mode[$info['teach_mode']];
+      // 科目时长
+      $info['class_time_long'] = $this->class_time_long[$info['class_time_long']];
+      // 课时价格
+      $info['class_hour_price'] = $info['class_hour_price'] . '元';
+      // 课时类型
+      $info['class_hour_type']  = $this->class_hour_type[$info['class_hour_type']];
+      return $info;
+    }
 }

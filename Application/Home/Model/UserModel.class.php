@@ -118,11 +118,11 @@ class UserModel extends Model{
      * @return bool
      */
     public function _before_update(&$data){
-        if($data['password']){
-            $data['password'] = md5($data['password']);
-        }else{
-            unset($data['password']);
-	}
+    //     if($data['password']){
+    //         $data['password'] = md5($data['password']);
+    //     }else{
+    //         unset($data['password']);
+	   // }
 	    $id  = I('post.id');
         $data['addtime'] = date('Y-m-d H:i:s',time());
         if(!empty($_FILES['car']['tmp_name'])) {
@@ -152,8 +152,23 @@ class UserModel extends Model{
     {
         $user = $this->find($id);
         if($user['defaul'] == 1){
-            $user['teacher'] = D('teacher')->find($id);
+            $teacher = D('teacher')->find($id);
+            if($teacher['tea_defaul_qx'] != 1){
+                $user['teacher'] = $teacher;
+            }
         }
+
+        // 判断用户是否修改年龄
+        $user['age'] = $user['age'] == 0 ? '未填写':'';
+
+        // 判断用户是否填写地址
+        $user['home_address'] = $user['home_address'] == "" ? "未填写" : '';
+
+        // 判断用户是否填写性别 未填写默认为 男
+        $user['sex'] = $user['sex'] == '' ? "男":'';  
+
+        // 判断用户是否上传头像 未上传提供默认头像
+        $user['car'] = $user['car'] == "" ? "默认头像":'';
         unset($user['password']);
         return $user;
     }
@@ -170,6 +185,49 @@ class UserModel extends Model{
         }else{
             return false;
         }
+    }
+
+    /**
+    *@param $id 用户id
+    */
+    public function createToken($id)
+    {
+        // 生成user_token
+        $user_token = md5($id+ date('Y-m-d',time()) +'musicApp');
+        return $user_token;
+    }
+
+
+    // 验证user_token
+    public function checkToken()
+    {
+        $token['user_token'] = ['eq',I('post.user_token')];
+        $token['id'] = ['eq',I('post.id')];
+        // 判断用户token是否存在
+        $info = $this->where($token)->find();
+        $time = date('Y-m-d H:i:s',time());
+        if(!$info){
+                $data = [
+                    'code' => 2,
+                    'msg'  => '用户未登录',
+                ];      
+                return ($data);
+        }
+        if( $time > $info['expire_time']){
+                $data = [
+                    'code' => 2,
+                    'msg'  => '登录已超时',
+                ];
+                return ($data);
+        }
+        $con['expire_time'] = date('Y-m-d H:i:s',time()+86400);
+        $this->where($token)->save($con);
+
+
+   
+        // 通用接口。请求参数，需带有。特色算法的sign 与服务器端校验。通过则返回数据，失败则拒绝.
+
+        // 用户提供认证信息，服务端认证后，返回token，用户请求接口需带有，当前时间，token加 （当前时间+token+musicAPP）生成的sign ，服务端，判断接口请求时间是否超过10分钟，根据参数根据相同算法生成sign。与请求参数sign相匹配。通过则返回数据，失败拒绝。
     }
 
 }

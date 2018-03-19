@@ -26,18 +26,23 @@ class IndexController extends Controller
     public function index()
     {
         $data = [];
-        // 课程类型数据
-        $data['subjectType'] = D('subjectsType')->getType();
-        // banner 数据
-        $data['banner'] = D('banner')->getInfo();
         // 课程数据
         $model = D('sendSubjects');
-        if(IS_GET){
-            $screen = I('get.');
-            $data['list'] = $model->getClassList($screen);
-        }
-                
-        $this->ajaxReturn($data);
+        // 获取筛选条件
+        $screen = I('post.');
+        //筛选条件
+        $data['screenList'] = $model->getScreenList();
+        // banner 数据
+        $data['banner'] = D('banner')->getInfo();
+        $data['list'] = $model->getClassList($screen);
+
+        $msg = [
+            'code' => '1',
+            'msg'  => '请求成功',
+            'data' => $data,
+        ];
+        $this->ajaxReturn($msg);
 
     }
+
 }

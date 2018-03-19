@@ -1,0 +1,738 @@
+[ 2018-03-19T10:05:48+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:07:45+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:07:49+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:08:11+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:08:13+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:08:37+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:08:57+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:09:41+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:11:41+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:13:15+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 108 行.
+
+[ 2018-03-19T10:13:42+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Common\Common\function.php 第 109 行.
+
+[ 2018-03-19T10:13:51+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T10:14:37+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T10:15:02+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T10:15:19+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-19T10:15:49+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T10:25:47+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 190 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 190 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `subject_name` FROM `music_subjects_type` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T10:26:10+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 190 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 190 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `subject_name` FROM `music_subjects_type` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T10:50:13+08:00 ] ::1 /appMusic/index.php/Home/Teacher/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 235 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 235 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 235 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: subjects_id D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 140 行.
+SQL: SELECT `subject_name` FROM `music_subjects_type` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: teach_mode D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 142 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 142 行.
+NOTIC: [8] Undefined index: class_time_long D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 144 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 144 行.
+NOTIC: [8] Undefined index: class_hour_price D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 146 行.
+NOTIC: [8] Undefined index: class_hour_type D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 148 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 148 行.
+
+[ 2018-03-19T10:50:53+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T10:53:20+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-19T10:54:33+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T10:55:13+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T10:55:25+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:00:16+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:00:29+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-19T11:03:05+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:04:37+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:07:00+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-19T11:10:06+08:00 ] ::1 /appMusic/index.php/Home/User/regSendCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:18:15+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:19:11+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:19:12+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:19:13+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-19T11:20:21+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:20:27+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:20:28+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:20:29+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:20:30+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:21:27+08:00 ] ::1 /appMusic/index.php/Home/user/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `music_user` (`phone`,`password`,`addtime`,`name`) VALUES ('17652553011','e10adc3949ba59abbe56e057f20f883e','2018-03-19 11:21:27','被我旋') [ RunTime:0.0920s ]
+SQL: SHOW COLUMNS FROM `music_coupon` [ RunTime:0.0440s ]
+NOTIC: [8] Undefined index: where D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 89 行.
+SQL: INSERT INTO `music_coupon` (`stu_id`,`last_time`,`money`) VALUES (NULL,'2018-03-19 11:21:27','88') [ RunTime:0.0720s ]
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 196 行.
+NOTIC: [2] A non-numeric value encountered D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 196 行.
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 121 行.
+SQL: UPDATE `music_user` SET `user_token`='df4fe8a8bcd5c95cdb640aa9793bb32b',`expire_time`='2018-03-20 11:21:27',`addtime`='2018-03-19 11:21:27' WHERE `id` = 39 [ RunTime:0.0730s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:27:36+08:00 ] ::1 /appMusic/index.php/Home/user/loginU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 196 行.
+NOTIC: [2] A non-numeric value encountered D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 196 行.
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 121 行.
+SQL: UPDATE `music_user` SET `user_token`='df4fe8a8bcd5c95cdb640aa9793bb32b',`expire_time`='2018-03-20 11:27:36',`addtime`='2018-03-19 11:27:36' WHERE `id` = 39 [ RunTime:0.0410s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:31:20+08:00 ] ::1 /appMusic/index.php/Home/user/resetPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:31:33+08:00 ] ::1 /appMusic/index.php/Home/user/resetPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:33:12+08:00 ] ::1 /appMusic/index.php/Home/user/resetPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: UPDATE `music_user` SET `password`='d803c83ad7269e22407f25cf49bef84a',`addtime`='2018-03-19 11:33:12' WHERE `phone` = '17652553011' [ RunTime:0.0480s ]
+
+[ 2018-03-19T11:34:38+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Think\Controller:checkToken方法不存在！
+
+[ 2018-03-19T11:35:04+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+ERR: Think\Model:ajaxReturn方法不存在！
+
+[ 2018-03-19T11:36:54+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:37:15+08:00 ] ::1 /appMusic/index.php/Home/user/loginU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:37:23+08:00 ] ::1 /appMusic/index.php/Home/user/loginU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' AND `password` = 'bf9f8d1f05dc08cc3b02e8fcf2c2ba57' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:37:35+08:00 ] ::1 /appMusic/index.php/Home/user/loginU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' AND `password` = 'bf9f8d1f05dc08cc3b02e8fcf2c2ba57' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:37:53+08:00 ] ::1 /appMusic/index.php/Home/user/resetPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-19T11:38:13+08:00 ] ::1 /appMusic/index.php/Home/user/resetPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: UPDATE `music_user` SET `password`='14e1b600b1fd579f47433b88e8d85291',`addtime`='2018-03-19 11:38:13' WHERE `phone` = '17652553011' [ RunTime:0.0490s ]
+
+[ 2018-03-19T11:38:22+08:00 ] ::1 /appMusic/index.php/Home/user/loginU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:38:47+08:00 ] ::1 /appMusic/index.php/Home/user/resetPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: UPDATE `music_user` SET `password`='14e1b600b1fd579f47433b88e8d85291',`addtime`='2018-03-19 11:38:47' WHERE `phone` = '17652553011' [ RunTime:0.0440s ]
+
+[ 2018-03-19T11:38:54+08:00 ] ::1 /appMusic/index.php/Home/user/loginU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:40:34+08:00 ] ::1 /appMusic/index.php/Home/user/resetPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: UPDATE `music_user` SET `password`='e10adc3949ba59abbe56e057f20f883e',`addtime`='2018-03-19 11:40:34' WHERE `phone` = '17652553011' [ RunTime:0.0530s ]
+
+[ 2018-03-19T11:40:37+08:00 ] ::1 /appMusic/index.php/Home/user/loginU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `phone` = '17652553011' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 196 行.
+NOTIC: [2] A non-numeric value encountered D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 196 行.
+SQL: UPDATE `music_user` SET `user_token`='df4fe8a8bcd5c95cdb640aa9793bb32b',`expire_time`='2018-03-20 11:40:37',`addtime`='2018-03-19 11:40:37' WHERE `id` = 39 [ RunTime:0.0460s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:41:01+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:41:50+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-20 11:41:50',`addtime`='2018-03-19 11:41:50' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0460s ]
+SQL: SELECT `password` FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-19T11:42:36+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-20 11:42:36',`addtime`='2018-03-19 11:42:36' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0540s ]
+SQL: SELECT `password` FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `password`='733d7be2196ff70efaf6913fc8bdcabf',`addtime`='2018-03-19 11:42:36' WHERE `id` = 39 [ RunTime:0.1080s ]
+
+[ 2018-03-19T11:43:39+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-20 11:43:39',`addtime`='2018-03-19 11:43:39' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0440s ]
+SQL: SELECT `password` FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:44:11+08:00 ] ::1 /appMusic/index.php/Home/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-20 11:44:11',`addtime`='2018-03-19 11:44:11' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0360s ]
+SQL: SELECT `password` FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `password`='c33367701511b4f6020ec61ded352059',`addtime`='2018-03-19 11:44:11' WHERE `id` = 39 [ RunTime:0.1000s ]
+
+[ 2018-03-19T11:49:06+08:00 ] ::1 /appMusic/index.php/Home/user/optRole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-20 11:49:06',`addtime`='2018-03-19 11:49:06' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0490s ]
+SQL: UPDATE `music_user` SET `defaul`='1',`addtime`='2018-03-19 11:49:06' WHERE `id` = 39 [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: INSERT INTO `music_teacher` (`id`) VALUES ('39') [ RunTime:0.0310s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-19T11:58:53+08:00 ] ::1 /appMusic/index.php/Home/user/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-19T11:59:06+08:00 ] ::1 /appMusic/index.php/Home/user/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_after_insert($option) should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\UserModel::_before_update(&$data) should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-20 11:59:06',`addtime`='2018-03-19 11:59:06' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0410s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: phone D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: phone D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: password D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: cpassword D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: phone D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: phone D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: car D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\UserController.class.php 第 267 行.
+SQL: UPDATE `music_user` SET `id`='39',`sex`='2',`addtime`='2018-03-19 11:59:06' WHERE `id` = 39 [ RunTime:0.0330s ]
+

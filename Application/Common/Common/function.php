@@ -101,8 +101,42 @@ function sendCode($phone,$code)
 
 
       $result = curl_exec($ch);
-
-
-
 }
 
+function tokenValidate()
+{  
+  $token = $_POST['token'];
+  $server_token = C('TOKEN');// md5('@*daike_quanApp');  
+  if(empty($token)){  
+      $result=array('code' =>0,'msg'=>"缺少serviceToken");      
+      return ($result); exit;  
+  }  
+
+  if($token!=$server_token){ 
+       $result=array('code' =>0,'err_msg'=>"serviceToken不匹配");      
+      return ($result); exit;  
+  }  
+  
+}
+
+function upNumber($str)
+{
+    return preg_replace('/\D/s', '', $str);
+}
+
+function returnMsg($code,$msg,$data = '')
+{
+  if($code != 0){
+      $data = array(
+                'code'  =>  $code,
+                'msg'   =>  $msg,
+                'data'  =>  $data,
+              );
+  }else{
+      $data = array(
+                  'code'  =>  $code,
+                  'msg'   =>  $msg,
+                );
+  }
+    return $data;
+}
