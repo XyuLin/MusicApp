@@ -12,34 +12,6 @@ use Think\Controller;
 class UserController extends Controller
 {
 
-    // public function reg()
-    // {
-    //     if (IS_POST) {
-    //         $model = D('user');
-    //         if ($model->create(I('post.'), 1)) {
-    //             if ($id = $model->add()) {
-    //                 if ($id) {
-    //                     $data = $model->find($id);
-    //                     if ($data) {
-    //                         $data = array(
-    //                             'code' => 1,
-    //                             'msg' => '恭喜您，注册成功！',
-    //                         );
-    //                     } else {
-    //                         $data = array(
-    //                             'code' => 0,
-    //                             'msg' => '注册失败'.$this->error($model->getError()),
-    //                         );
-    //                     }
-    //                     return json_encode($data);
-    //                 }
-    //             }
-
-    //         }
-    //     }
-    // }
-
-
     // 发送验证码短信
     public function regSendCode()
     {
@@ -48,11 +20,30 @@ class UserController extends Controller
             if(IS_POST){
                 $phone = I('post.phone');
                 $code = I('post.code');
+                $type = I('post.type');
+                $model = D('user');
+                if($type == 1){
+                    $isT = $model->where(['phone'=>$phone])->find();
+                    if($isT){
+                        $msg = returnMsg(0,'手机号已被注册。');
+                        $this->ajaxReturn($msg);
+                    }
+                }
+
+                if($type == 2){
+                    $isT = $model->where(['phone'=>$phone])->find();
+                    if(!$isT){
+                        $msg = returnMsg(0,'此手机号未被注册');
+                        $this->ajaxReturn($msg);
+                    }
+                    
+                }
                 if($phone && $code){
                     $res = sendCode($phone,$code);
                     $msg = [
                         'code' => 1,
-                        'msg'  => '发送成功'
+                        'msg'  => '发送成功',
+                        'data' => [],
                     ];
                     $this->ajaxReturn($msg);
                 }
@@ -80,6 +71,7 @@ class UserController extends Controller
                     $data = [
                         'code' => '0',
                         'msg'  => '手机号已被注册。',
+                        'data' => [],
                     ];
                     $this->ajaxReturn($data);
                 }
@@ -98,7 +90,7 @@ class UserController extends Controller
                         $msg = [
                         'code' => 1,
                         'msg'  => '注册成功',
-                        'data' => $info,
+                        'data' => [$info],
                         ];
                         $this->ajaxReturn($msg);
                     }           
@@ -113,6 +105,7 @@ class UserController extends Controller
         }
     }
 
+    // 选择角色
     public function optRole()
     {
         $model = D('user');
@@ -125,12 +118,22 @@ class UserController extends Controller
       
         $res = $model->where(['id'=>$id])->save(['defaul'=>$role]);
         if($role == 1){
-            D('teacher')->add(['id'=>$id]);
+            if(!$isT){
+                    $data = [
+                    'id'        => $id,
+                    'addtime'   => date('Y-m-d H:i:s',time()),
+                    'sex'       => $model->where(['id'=>$id])->getField('sex'),
+                ];
+                D('teacher')->add($data);
+            }else{
+
+            }
+
         }
         $msg = [
             'code' => 1,
             'msg'  => '角色选择成功',
-            'data' => $model->getInfo($id),
+            'data' => [$model->getInfo($id,1)],
         ];
         $this->ajaxReturn($msg);
         
@@ -145,6 +148,11 @@ class UserController extends Controller
                 $pass = I('post.password');
                 $phone = I('post.phone');
                 $model = D('user');
+                $isT = $model->where(['phone' => $phone])->find();
+                if(!$isT){
+                    $msg = returnMsg(0,'此号码未注册');
+                    $this->ajaxReturn($msg);
+                }
                 $user = $model->where(['phone' => $phone])->where(['password' => md5($pass)])->find();
                 if($user){
                     // 创建token
@@ -158,7 +166,7 @@ class UserController extends Controller
                     $msg = [
                         'code' => 1,
                         'msg'  => '登录成功',
-                        'data' => $user,
+                        'data' => [$user],
                     ];
                     $this->ajaxReturn($msg);
                 }else{
@@ -198,6 +206,7 @@ class UserController extends Controller
             $msg = [
                 'code' => '0',
                 'msg'  => '密码错误,修改失败',
+                'data' => [],
             ];
             $this->ajaxReturn($msg);
         }
@@ -208,6 +217,7 @@ class UserController extends Controller
             $msg = [
                 'code' => '1',
                 'msg'  => '密码修改成功',
+                'data' => [],
             ];
             $this->ajaxReturn($msg);
         }
@@ -221,16 +231,24 @@ class UserController extends Controller
             if(IS_POST){
                 $pass = I('post.password');
                 $tel = I('post.phone');
-                $id = D('user')->where(['phone' => $tel])->save(['password'=>md5($pass)]);
+                $model = D('user');
+                $isT = $model->where(['phone' => $tel])->find();
+                if(!$isT){
+                    $msg = returnMsg(0,'此号码未注册');
+                    $this->ajaxReturn($msg);
+                }
+                $id = $model->where(['phone' => $tel])->save(['password'=>md5($pass)]);
                 if($id != 0){
                     $data = array(
                         'code' => 1,
                         'msg' => '重置成功',
+                        'data' => [],
                     );
                 } else {
                     $data = array(
                         'code' => 0,
                         'msg' => '重置失败',
+                        'data' => [],
                     );
                 }
                 $this->ajaxReturn($data);
@@ -262,42 +280,51 @@ class UserController extends Controller
         if(IS_POST){
             
             $data = I('post.');
-            if($model->create($data)){
 
-                if ($_FILES['car']) {
-                    $upload = new \Think\Upload();
-                    $upload->maxSize = 3145728;
-                    $upload->exts = array('jpg', 'gif', 'png', 'jpeg');
-                    $upload->rootPath = './Public/Upload/';
-                    $upload->savePath = 'userImages/';
-                    $info = $upload->upload();
+            // 判断是否错误填写角色
+            if($data['defaul']){
+                unset($data['defaul']);
+            }
 
-                    if (!$info) {
-                        $msg = [
-                            'code' => 0,
-                            'msg'  => $upload->getError(),
-                            'data' => [],
-                        ];
-                        $this->ajaxReturn($msg);
-                    } else {
-                        $data['car'] = $info['car']['savepath'] . $info['car']['savename'];
-                    }
-                }
+            // 判断是否有头像上传
+            if ($_FILES['car']) {
+                $upload = new \Think\Upload();
+                $upload->maxSize = 3145728;
+                $upload->exts = array('jpg', 'gif', 'png', 'jpeg');
+                $upload->rootPath = './Public/Upload/';
+                $upload->savePath = 'userImages/';
+                $info = $upload->upload();
 
-                $ret_id = $model->where(['id'=>$data['id']])->save();
-                if ($ret_id != false) {
-                    $data = array(
-                        'code' => 1,
-                        'msg' => '修改成功',
-                    );
-                } else {
-                    $data = array(
+                if (!$info) {
+                    $msg = [
                         'code' => 0,
-                        'msg' => '修改失败'.$this->error($model->getError()),
-                    );
+                        'msg'  => '上传错误',
+                        'data' => [],
+                    ];
+                    $this->ajaxReturn($msg);
+                } else {
+                    $data['car'] = $info['car']['savepath'] . $info['car']['savename'];
                 }
-                $this->ajaxReturn($data);
-            }  
+            }
+
+            // 修改资料
+            $ret_id = $model->where(['id'=>$data['id']])->save($data);
+
+            if ($ret_id != false) {
+                $data = array(
+                    'code' => 1,
+                    'msg' => '修改成功',
+                    'data' => [],
+                );
+            } else {
+                $data = array(
+                    'code' => 0,
+                    'msg' => '修改失败'.$this->error($model->getError()),
+                    'data' => [],
+                );
+            }
+
+            $this->ajaxReturn($data);
         }    
     }
 
@@ -315,13 +342,13 @@ class UserController extends Controller
             if (!$info) {
                 $msg = [
                     'code' => 0,
-                    'msg'  => $upload->getError(),
+                    'msg'  => '上传失败 ',
                     'data' => [],
                 ];
             } else {
                 $msg = [
                     'code' => 0,
-                    'msg'  => $upload->getError(),
+                    'msg'  => '上传成功',
                     'data' => [
                         'avatar' => $info['avatar']['savepath'] . $info['avatar']['savename'],
                     ],
@@ -331,5 +358,114 @@ class UserController extends Controller
         }
     }
 
+    /** 
+    * 添加课程类别
+    *@param subject_name str 课程名称  
+    */ 
+    public function addSubjectsType()
+    {
+        $model = D('subjectsType');
+        $post = I('post.');
+        $post['up_date'] = date('Y-m-d H:i:s',time());
+        $model->create($post);
+        $id = $model->add();
+        if($id){
+           $msg = returnMsg(1,'添加成功',$id);
+        }else{
+           $msg = returnMsg(0,'添加失败');
+        }
+        $this->ajaxReturn($msg);
+    }
 
+    /** 
+    * 购买课程。生成的订单  (未完成)
+    *@param id          用户id
+    *@param user_token  用户token
+    *@param subject_id  课程id
+    */
+    public function buyCoures()
+    {
+        // 验证用户是否登录
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }
+
+        // 获取资料
+        $post = I('post.');
+        $post['stu_id'] = I('post.id');
+        unset($post['id']);
+
+        // 获取课程详情
+        $subject = D('sendSubjects');
+        $subjectInfo = $subject->getInfo($post['subject_id'],1);
+        $post['class_hour_type'] = $subjectInfo['class_hour_type'];
+        $post['class_hour_price'] = $subjectInfo['class_hour_price'];
+        $num = upNumber($subject->class_hour_type[$subjectInfo['class_hour_type']]);
+        $post['subject_total'] = $num * $post['class_hour_price'];
+
+        $model = D('stuSubject');
+        $id = $model->add($post);
+        if($id){
+            // 订单生成之后，支付
+
+            // 支付成功。生成学生课程详情
+            $student = D('students');
+            $stu = [
+                'stu_id' => $post['stu_id'],
+                'subject_id' => $post['subject_id'],
+                'total_hours' => $num,
+            ];
+
+            $res = $student->editData($stu);
+            
+            if($res){
+                $msg = returnMsg(1,'购买成功');
+                $this->ajaxReturn($msg);
+            }  
+        }
+    }
+
+    /** 
+    * 我的课程(教师/学生) 
+    *@param id str 用户id
+    *@param user_token str 用户token  
+    */ 
+    public function mySubjects()
+    {
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }
+
+        $id = I('post.id');
+        $teach = $user->isTeacher($id);   
+
+        if($teach != false){
+            $list = $user->subjectList($id,1);
+        }else{
+            $list = $user->subjectList($id,2);
+        }
+        $msg = returnMsg(1,'请求成功',$list);
+        $this->ajaxReturn($msg);
+    }
+
+
+    // 学生上课详情
+    public function stuInfo()
+    {
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }
+
+        $model = D('students');
+        $post = I('post.');
+        $info = $model->getInfo($post['stu_id'],$post['subject_id']);
+        $msg = returnMsg(1,'请求成功',$info);
+        $this->ajaxReturn($msg);
+    }
 }

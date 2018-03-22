@@ -43,6 +43,7 @@ function return_json($data){
 function V($data){
     echo '<pre>';
     var_dump($data);
+    echo "</pre>";
 }
 
 
@@ -97,7 +98,7 @@ function sendCode($phone,$code)
       // curl_setopt($ch, CURLOPT_RETURNTRANSFER,$url);
       //请求的参数 你吧                                                                                                             
       curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
-      //curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果需要将结果直接返回到变量里，那加上这句。
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果需要将结果直接返回到变量里，那加上这句。
 
 
       $result = curl_exec($ch);
@@ -113,7 +114,7 @@ function tokenValidate()
   }  
 
   if($token!=$server_token){ 
-       $result=array('code' =>0,'err_msg'=>"serviceToken不匹配");      
+       $result=array('code' =>0,'msg'=>"serviceToken不匹配");      
       return ($result); exit;  
   }  
   
@@ -126,16 +127,26 @@ function upNumber($str)
 
 function returnMsg($code,$msg,$data = '')
 {
-  if($code != 0){
-      $data = array(
+  if($code == 1){
+      if($data != ''){
+         $data = array(
                 'code'  =>  $code,
                 'msg'   =>  $msg,
-                'data'  =>  $data,
+                'data'  =>  [$data],
               );
+      }else{
+        $data = array(
+                'code'  =>  $code,
+                'msg'   =>  $msg,
+                'data'  =>  [],
+              );
+      }
+      
   }else{
       $data = array(
                   'code'  =>  $code,
                   'msg'   =>  $msg,
+                  'data' => [],
                 );
   }
     return $data;

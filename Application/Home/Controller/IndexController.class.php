@@ -30,19 +30,53 @@ class IndexController extends Controller
         $model = D('sendSubjects');
         // 获取筛选条件
         $screen = I('post.');
+        
+          // 判断是否选择页码
+          if(I('post.page')){
+            $page = I('post.page');
+          }else{
+            $page = 1;
+          }
         //筛选条件
-        $data['screenList'] = $model->getScreenList();
+        $type = D('subjectsType');
+        $list = [
+            'type'  => $type->getType(1),
+            'range' => $type->getType(2),
+            'price' => $type->getType(3),
+            'educa' => $type->getType(4),
+            'sex'   => $type->getType(5),
+        ];
+
+        // $data['screenList'] = $list;
+
+        // V($data);die;
         // banner 数据
-        $data['banner'] = D('banner')->getInfo();
-        $data['list'] = $model->getClassList($screen);
+        // $data['banner'] = D('banner')->getInfo();
+
+        $data['list'] = $model->getClassList($screen,$page);
 
         $msg = [
             'code' => '1',
             'msg'  => '请求成功',
-            'data' => $data,
+            'data' => [$data],
         ];
         $this->ajaxReturn($msg);
+    }
 
+    public function indexSearch()
+    {
+        $str = I('post.str');
+
+    }
+
+    // 课程详情
+    public function subjectInfo()
+    {
+        $id = I('post.id');
+        $model = D('sendSubjects');
+        $info = $model->getInfo($id,1);
+        $msg = returnMsg(1,'请求成功',$info);
+        $this->ajaxReturn($msg);
     }
 
 }

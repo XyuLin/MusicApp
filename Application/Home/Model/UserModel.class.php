@@ -19,7 +19,7 @@ class UserModel extends Model{
         array('name', '', '该用户已存在，请重新注册！', 2, 'unique', 3),
         array('phone', '/^1[3|4|5|6｜7|8][0-9]{9}$/', '手机格式错误', 2, 'regex', 3),
     );
-    protected $sexList = [1=>'男','女']; 
+    protected $sexList = ['未选择','男','女']; 
     protected $education = [1=>'大专','本科','硕士','博士','教授']; 
 
     public function _before_insert(&$data){
@@ -53,7 +53,7 @@ class UserModel extends Model{
      * @return string          返回截取到的汉字
      */
    public function getRndwords($num,$giveStr=""){
-        $str="我忽而听到夜半的笑声吃吃地似乎不愿意惊动睡着的人然而四围的空气都应和着笑夜半没有别的人我即刻听出这声音就在我嘴里我也立即被这笑声所驱逐回进自己的房灯火的带子也即刻被我旋高了后窗的玻璃上下丁地响还有许多小飞虫乱撞不多久几个进来了许是从窗纸的破孔进来的他们一进个又在玻璃的灯罩上撞得了丁丁地响一个从上面撞进去了他于是遇到火而且我以为这火是真的两三个却休息在灯的纸罩上喘气那罩是昨晚新换的罩雪白的纸折出波浪纹的叠痕一角还画出一枝猩红色的栀子猩红的栀子开花时枣树又要做小粉红花的梦青葱地弯成弧形了我又听到夜半的笑声";
+        $str="abcdefghijklmnopqrstuvwsyz";
         $newStr  = "";
         $anLo    = array();
         $bit     = 3;
@@ -125,6 +125,7 @@ class UserModel extends Model{
 	   // }
 	    $id  = I('post.id');
         $data['addtime'] = date('Y-m-d H:i:s',time());
+
         if(!empty($_FILES['car']['tmp_name'])) {
             if ($_FILES['car']['error'] == 0) {
                 $upload = new \Think\Upload();
@@ -148,27 +149,34 @@ class UserModel extends Model{
     }
 
     //  查询个人基本信息
-    public function getInfo($id)
+    public function getInfo($id,$type = '')
     {
         $user = $this->find($id);
-        if($user['defaul'] == 1){
+        if($user['defaul'] == 1 && $type == ''){
             $teacher = D('teacher')->find($id);
             if($teacher['tea_defaul_qx'] != 1){
+
+                $teacher['education_age'] .= '年';
+                $teacher['sex'] = $this->sexList[$user['sex']]; 
+                // 删除无用字段
+                unset($teacher['tea_defaul_id']);
+                unset($teacher['education']);
+                unset($teacher['graduate']);
                 $user['teacher'] = $teacher;
             }
         }
 
         // 判断用户是否修改年龄
-        $user['age'] = $user['age'] == 0 ? '未填写':'';
+        $user['age'] = $user['age'] == ''? '未填写': $user['age'];
 
         // 判断用户是否填写地址
-        $user['home_address'] = $user['home_address'] == "" ? "未填写" : '';
+        $user['home_address'] = $user['home_address'] == '' ? "未填写":  $user['home_address'];
 
-        // 判断用户是否填写性别 未填写默认为 男
-        $user['sex'] = $user['sex'] == '' ? "男":'';  
+        // 性别信息
+        $user['sex'] = $this->sexList[$user['sex']];      
 
         // 判断用户是否上传头像 未上传提供默认头像
-        $user['car'] = $user['car'] == "" ? "默认头像":'';
+        // $user['car'] = $user['car'] == "" ? "默认头像":'';
         unset($user['password']);
         return $user;
     }
@@ -206,21 +214,23 @@ class UserModel extends Model{
         // 判断用户token是否存在
         $info = $this->where($token)->find();
         $time = date('Y-m-d H:i:s',time());
-        if(!$info){
+        if($info == NULL){
                 $data = [
                     'code' => 2,
                     'msg'  => '用户未登录',
-                ];      
+                    'data' => [],
+                ];  
                 return ($data);
         }
         if( $time > $info['expire_time']){
                 $data = [
                     'code' => 2,
                     'msg'  => '登录已超时',
+                    'data' => [],
                 ];
                 return ($data);
         }
-        $con['expire_time'] = date('Y-m-d H:i:s',time()+86400);
+        $con['expire_time'] = date('Y-m-d H:i:s',time()+604800);
         $this->where($token)->save($con);
 
 
@@ -228,6 +238,28 @@ class UserModel extends Model{
         // 通用接口。请求参数，需带有。特色算法的sign 与服务器端校验。通过则返回数据，失败则拒绝.
 
         // 用户提供认证信息，服务端认证后，返回token，用户请求接口需带有，当前时间，token加 （当前时间+token+musicAPP）生成的sign ，服务端，判断接口请求时间是否超过10分钟，根据参数根据相同算法生成sign。与请求参数sign相匹配。通过则返回数据，失败拒绝。
+    }
+
+
+
+    /** 
+    * 课程列表 
+    *@param id str 用户id
+    *@param type  用户类型 (1 教师,2 学生)
+    */ 
+    public function subjectList($id,$type)
+    {       
+         $model = D('sendSubjects');
+        if($type == 1){
+            // 获取教师发布的所有课程
+            $list = $model->returnClass($id);
+            return($list);
+        }else{
+            // 学生购买的教程
+            $list = $model->get_stu_class($id);
+            return($list);
+        }
+
     }
 
 }
