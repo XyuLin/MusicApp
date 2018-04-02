@@ -36,9 +36,9 @@
 
         <?php if(is_array($info)): foreach($info as $key=>$v): ?><tr>
                 <td style="text-align:left; padding-left:60px;"><?php echo $v['id'];?></td>
-                <td><?php echo $v['subject_name'];?></td>
-                <td><?php echo $v['number'];?></td>
-                <td><?php echo $v['up_date'];?></td>
+                <td><?php echo $v['course_name'];?></td>
+                <td><?php echo $v['count'];?></td>
+                <td><?php echo $v['create_time'];?></td>
                 <td>
                     <div class="button-group">
                         <!--<a class="button border-main" href="<?php echo U('edit?id='.$v['id']);?>"><span class="icon-edit"></span> 修改</a>-->

@@ -1,0 +1,1251 @@
+[ 2018-03-27T11:09:55+08:00 ] ::1 /appMusic/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.319018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.319018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-03-27T11:09:55+08:00 ] ::1 /appMusic/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:09:57+08:00 ] ::1 /appMusic/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:09:57+08:00 ] ::1 /appMusic/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-27T11:10:24+08:00 ] ::1 /appMusic/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Model\AdminModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `music_admin` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `music_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:10:25+08:00 ] ::1 /appMusic/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:10:25+08:00 ] ::1 /appMusic/index.php/Admin/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:10:26+08:00 ] ::1 /appMusic/index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:10:41+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'music_app.music_stu_sub_list' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_sub_list`
+ERR: 1146:Table 'music_app.music_stu_sub_list' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_sub_list`
+
+[ 2018-03-27T11:11:05+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'music_app.music_stu_subjects' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subjects`
+ERR: 1146:Table 'music_app.music_stu_subjects' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subjects`
+
+[ 2018-03-27T11:11:06+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'music_app.music_stu_subjects' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subjects`
+ERR: 1146:Table 'music_app.music_stu_subjects' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subjects`
+
+[ 2018-03-27T11:11:21+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `music_stu_subject` LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0040s ]
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:11:23+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_stu_subject` LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:12:46+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_stu_subject` LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 46 行.
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 47 行.
+NOTIC: [2] Illegal string offset 'subject' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [2] Illegal string offset 'stu_order_title' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 49 行.
+NOTIC: [2] Illegal string offset 'teach_mode' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 50 行.
+NOTIC: [2] Illegal string offset 'statu' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pay_status' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 53 行.
+NOTIC: [2] Illegal string offset 'subject_total' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 56 行.
+NOTIC: [2] Illegal string offset 'pay_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 57 行.
+NOTIC: [2] Illegal string offset 'stu_order_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 58 行.
+NOTIC: [2] Illegal string offset 'create_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 59 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 62 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 46 行.
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 47 行.
+NOTIC: [2] Illegal string offset 'subject' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [2] Illegal string offset 'stu_order_title' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 49 行.
+NOTIC: [2] Illegal string offset 'teach_mode' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 50 行.
+NOTIC: [2] Illegal string offset 'statu' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pay_status' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 53 行.
+NOTIC: [2] Illegal string offset 'subject_total' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 56 行.
+NOTIC: [2] Illegal string offset 'pay_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 57 行.
+NOTIC: [2] Illegal string offset 'stu_order_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 58 行.
+NOTIC: [2] Illegal string offset 'create_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 59 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 62 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 46 行.
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 47 行.
+NOTIC: [2] Illegal string offset 'subject' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [2] Illegal string offset 'stu_order_title' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 49 行.
+NOTIC: [2] Illegal string offset 'teach_mode' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 50 行.
+NOTIC: [2] Illegal string offset 'statu' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pay_status' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 53 行.
+NOTIC: [2] Illegal string offset 'subject_total' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 56 行.
+NOTIC: [2] Illegal string offset 'pay_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 57 行.
+NOTIC: [2] Illegal string offset 'stu_order_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 58 行.
+NOTIC: [2] Illegal string offset 'create_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 59 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 62 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 46 行.
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 47 行.
+NOTIC: [2] Illegal string offset 'subject' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [2] Illegal string offset 'stu_order_title' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 49 行.
+NOTIC: [2] Illegal string offset 'teach_mode' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 50 行.
+NOTIC: [2] Illegal string offset 'statu' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pay_status' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 53 行.
+NOTIC: [2] Illegal string offset 'subject_total' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 56 行.
+NOTIC: [2] Illegal string offset 'pay_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 57 行.
+NOTIC: [2] Illegal string offset 'stu_order_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 58 行.
+NOTIC: [2] Illegal string offset 'create_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 59 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 62 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 46 行.
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 47 行.
+NOTIC: [2] Illegal string offset 'subject' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [2] Illegal string offset 'stu_order_title' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 49 行.
+NOTIC: [2] Illegal string offset 'teach_mode' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 50 行.
+NOTIC: [2] Illegal string offset 'statu' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pay_status' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 53 行.
+NOTIC: [2] Illegal string offset 'subject_total' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 56 行.
+NOTIC: [2] Illegal string offset 'pay_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 57 行.
+NOTIC: [2] Illegal string offset 'stu_order_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 58 行.
+NOTIC: [2] Illegal string offset 'create_time' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 59 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:13:13+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_stu_subject` LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+NOTIC: [2] Illegal string offset 'stu_id' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'stuName' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Controller\OrderController.class.php 第 35 行.
+
+[ 2018-03-27T11:13:35+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_stu_subject` LIMIT 0,5   [ RunTime:0.0000s ]
+
+[ 2018-03-27T11:14:12+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:14:18+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:14:36+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-27T11:14:39+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:15:17+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:15:30+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+NOTIC: [8] Undefined index: subject D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Runtime\Cache\Admin\c8c1f198068b2649d7fa2cda8e27b8af.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:15:46+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:17:06+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:20:21+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:20:21+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-27T11:20:40+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:20:46+08:00 ] ::1 /appMusic/index.php/Admin/order/del/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: DELETE FROM `music_stu_subject` WHERE `id` = 5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:20:47+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:20:53+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:20:59+08:00 ] ::1 /appMusic/index.php/Admin/order/del/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0040s ]
+SQL: DELETE FROM `music_stu_subject` WHERE `id` = 4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:00+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:02+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:21:05+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:06+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:07+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 10,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:09+08:00 ] ::1 /appMusic/index.php/Admin/order/del/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: DELETE FROM `music_stu_subject` WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:10+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 10,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:21:12+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:21:13+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:21:14+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:21:15+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:30+08:00 ] ::1 /appMusic/index.php/Admin/Order/stuSubList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 10,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:21:32+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:39+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-27T11:21:51+08:00 ] ::1 /appMusic/index.php/Admin/sendSubjects/verifySub.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_send_subjects` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.subject_name,c.name FROM music_send_subjects a LEFT JOIN music_subjects_type b ON a.subjects_type = b.id LEFT JOIN music_user c ON a.teacher_id = c.id  ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-27T11:21:51+08:00 ] ::1 /appMusic/index.php/Admin/sendSubjects/verifySub.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_send_subjects` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.subject_name,c.name FROM music_send_subjects a LEFT JOIN music_subjects_type b ON a.subjects_type = b.id LEFT JOIN music_user c ON a.teacher_id = c.id  ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

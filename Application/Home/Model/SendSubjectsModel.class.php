@@ -12,26 +12,11 @@ use Think\Model;
 class SendSubjectsModel extends Model
 {
     // 课时类型
-    public $class_hour_type = [1=>'15课时起售','30课时起售'];
+    public $class_hour_type = [1=>'12课时起售','24课时起售'];
     // 科目时长
     public $class_time_long = [1=>'45分钟','50分钟','55分钟'];
     // 教学方式
     // protected $teach_mode = ['教师上门','学生上门'];
-    /**
-     *@param $stu_id /学生的id			  
-     * @param $data  /返回学生的上课时间和上课内容 教学老师
-     */
-    public function get_stu_class($stu_id){
-	    $model = D('stu_subject'); 
-	    $send_model = D('send_subjects');
-        if($stu_id){
-      		$data = $model->where(['stu_id'=>$stu_id])->select();
-      		foreach($data as &$v){
-      			$v = $this->getInfo($v['subjects_id'],1);
-      		}
-    	}
-	    return $data;
-    }
 
     /**
     *@param $screen  //数组筛选条件 
@@ -42,15 +27,15 @@ class SendSubjectsModel extends Model
       $typesModel = D('subjectsType');
     	// 判断是否选择乐器类型
     	if($screen['type'] && $screen['type'] != 0){
-    		$where['subject_type'] = ['eq',$screen['type']];
+    		$where['subjects_type'] = ['eq',$screen['type']];
     	}
 		
-  		// 判断是否选择价格类型
+    	// 判断是否选择价格类型
   		if($screen['price'] && $screen['price'] != 0){
 
-  			$price = $typesModel->getType(3,$screen['price']);
+  			$price = $typesModel->getType('3',$screen['price']);
   			if($screen['price'] == 18){
-  				$where['class_hour_price'] = ['gt',upNumber($price)];
+  				$where['class_hour_price'] = ['gt',upNumber($price['subject_name'])];
   			}else{
   				$in = explode('-',$price['subject_name']);
       			$where['class_hour_price'] = [['EGT',upNumber($in[0])],['ELT',upNumber($in[1])]];
@@ -59,11 +44,11 @@ class SendSubjectsModel extends Model
   	
   		// 判断是否选择教龄年限
   		if($screen['educa'] && $screen['educa'] != 0){
-    			$educa = $typesModel->getType(4,$screen['educa']);
+    			$educa = $typesModel->getType('4',$screen['educa']);
   			if($screen['educa'] == 23){
-  				$wher['education_age'] = ['gt',upNumber($educa)];
+  				$wher['education_age'] = ['gt',upNumber($educa['subject_name'])];
   			}else{
-  				$ing = explode('-',$educa['subject_name']);
+  				$ing = explode('-',$educa['subject_name']); 
       			$wher['education_age'] = [['EGT',upNumber($ing[0])],['ELT',upNumber($ing[1])]];
   			}
   		}
@@ -78,39 +63,39 @@ class SendSubjectsModel extends Model
   			$teach = D('teacher');
         // 获取老师id列表
   			$list = $teach->distinct(true)->where($wher)->getField('id',true);
-              V($wher);die;
+        // V($wher);die;
         if(!$list){
-          $msg = returnMsg(0,'暂时未有满足条件的课程');
-          return $msg;
+          return [];
         }
   	  }
 
 
   		// 筛选满足条件老师
-  		if($where['subject_type'] || $where['class_hour_price']){
+  		if($where['subjects_type'] || $where['class_hour_price']){
   			if($list){
   				$where['teacher_id'] = ['in',$list];
+          $where['status'] = ['eq','1'];
   			}
 
-  			$data = $this->distinct(true)->where($where)->order('id desc')->limit(3)->page($page)->getField('teacher_id',true);
+  			$data = $this->distinct(true)->where($where)->order('id desc')->limit(10)->page($page)->getField('teacher_id',true);
+
 
         if(empty($data)){
-            $msg = returnMsg(0,'暂时未有满足条件的课程');
-            return $msg;
+             return [];
         }
   		}else{
   			if($list){
   				$where['teacher_id'] = ['in',$list];
-  				$data = $this->distinct(true)->where($where)->order('id desc')->limit(3)->page($page)->getField('teacher_id',true);
+          $where['status'] = ['eq','1'];
+  				$data = $this->distinct(true)->where($where)->order('id desc')->limit(10)->page($page)->getField('teacher_id',true);
 
           if(empty($data)){
-            $msg = returnMsg(0,'暂时未有满足条件的课程');
-            return $msg;
+             return [];
           }
           // 不为空，满足条件
   			}else{
   				// 如何没有筛选 按最新课程排序所有课程
-  				$data = $this->distinct(true)->order('id desc')->limit(3)->page($page)->getField('teacher_id',true);
+  				$data = $this->distinct(true)->where(['status'=>'1'])->order('id desc')->limit(10)->page($page)->getField('teacher_id',true);
   			}
   		}
       // V($data);die;
@@ -128,15 +113,80 @@ class SendSubjectsModel extends Model
     } 
 
     // 教师发布的所有课程
-    public function returnClass($id)
+    public function returnClass($id,$type = '')
     {
-    	$data = $this->where(['teacher_id' => $id])->select();
+      $haveModel = D('haveCourse');
+      $list = $haveModel->distinct(true)->where(['user_id'=>$id])->getField('subject_type',true);
+      
+      if($type != ''){
+          $model = D('stuSubject');
+          $idlist = $model->distinct(true)->where(['stu_id'=>$id])->getField('subject_id',true);
+          if(!$idlist){
+              $msg = returnMsg(0,'暂时没有购买过课程');
+              return $msg;
+          }
 
-      foreach($data as $k => &$v){
-          $v = $this->getInfo($v['id'],1);
+          foreach($list as $key => $value){
+              $data[$key]['type'] = $value;
+
+              foreach($idlist as $v){
+                $info = $this->getInfo($v,1);
+
+                if($info['subjects_type'] == $value){
+                  $data[$key]['typeName'] = $info['subjects_name'];
+                  $data[$key]['list'][] = $info;
+                }
+              }
+          }
+          // V($data);die;
+          $msg = returnMsg(1,'请求成功',$data);
+          return $msg;  
       }
-    	return $data;
+
+      if(!$list){
+          $msg = returnMsg(0,'暂时没有发布过课程');
+          return $msg;
+      }
+
+      foreach($list as $k => $v){
+        $idlist = $this->where(['teacher_id'=>$id,'subjects_type'=>$v,'status'=>'1'])->getField('id',true);
+
+        if(empty($idlist)){
+          $msg = returnMsg(0,'暂时没有课程,如果您已发布课程,请等待后台审核通过');
+          return $msg;
+        }
+          $info[$k]['type'] = $v; 
+
+          foreach($idlist as $key => $value){
+            $inf = $this->getInfo($value,1);
+            if($inf['subjects_type'] == $v){
+              $info[$k]['typeName'] = $inf['subjects_name'];
+              $info[$k]['list'][] = $inf;
+            }
+          }
+      }
+       // V($info);die;
+      $msg = returnMsg(1,'请求成功',$info);
+      return $msg; 
     }
+
+      /**
+     *@param $stu_id /学生的id       
+     * @param $data  /返回学生的上课时间和上课内容 教学老师
+     */
+    public function get_stu_class($stu_id){
+      $model = D('stu_subject'); 
+      $send_model = D('send_subjects');
+        if($stu_id){
+          $data = $model->where(['stu_id'=>$stu_id])->select();
+         //  V($data);die;
+          foreach($data as &$v){
+            $v = $this->getInfo($v['subjects_id'],1);
+          }
+      }
+      return $data;
+    }
+
 
     // 获取课程详情
     public function getInfo($id,$type = '')
@@ -153,7 +203,7 @@ class SendSubjectsModel extends Model
       // 课时价格
       $info['hour_price_Name'] = $info['class_hour_price'] . '元';
       // 课时类型
-      $info['hour_type_Name']  = $this->class_hour_type[$info['class_hour_type']];
+      $info['hour_type_Name']  = upNumber($this->class_hour_type[$info['class_hour_type']]);
 
       if($type == ''){
         // 教师信息

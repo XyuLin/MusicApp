@@ -59,7 +59,7 @@ function sendCode($phone,$code)
       $a = rand(1000,9999);
   
       $post_data['mobile'] = $phone;
-      $post_data['content'] = "【艺家教】你的验证码为[$code]五分钟内有效。";
+      $post_data['content'] = $code;
       $post_data['sendTime'] = ''; //指令1表示验证帐号
       $post_data['action'] = 'send'; //指令1表示验证帐号
       $post_data['cmd'] = '1'; //指令1表示验证帐号
@@ -132,7 +132,7 @@ function returnMsg($code,$msg,$data = '')
          $data = array(
                 'code'  =>  $code,
                 'msg'   =>  $msg,
-                'data'  =>  [$data],
+                'data'  =>  $data,
               );
       }else{
         $data = array(
@@ -151,3 +151,18 @@ function returnMsg($code,$msg,$data = '')
   }
     return $data;
 }
+
+// function getDate()
+// {
+//    $time = ('1' == date('w')) ? strtotime('Monday', $now) : strtotime('last Monday', $now);  
+
+//   //下面2句就是将上面得到的时间做一个起止转换
+
+//   //得到本周开始的时间，时间格式为：yyyy-mm-dd hh:ii:ss 的格式
+//   $date['begin'] = date('Y-m-d 00:00:00', $time);  
+
+//   //得到本周末最后的时间
+//   $date['end'] = date('Y-m-d 23:59:59', strtotime('Sunday', $now));
+
+//   return $date;
+// }

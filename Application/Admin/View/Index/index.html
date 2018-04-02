@@ -19,13 +19,20 @@
   </ul>   
   <h2><span class="icon-pencil-square-o"></span>栏目管理</h2>
   <ul>
-    <li><a href="<?php echo U('Admin/lst');?>" target="right"><span class="icon-caret-right"></span>管理员列表</a></li>
-      <li><a href="<?php echo U('User/teaLst');?>" target="right"><span class="icon-caret-right"></span>教师表</a></li>
-      <li><a href="<?php echo U('User/stulst');?>" target="right"><span class="icon-caret-right"></span>学生信息表</a></li>
     <li><a href="<?php echo U('Musical/lst');?>" target="right"><span class="icon-caret-right"></span>乐器列表</a></li>
     <li><a href="<?php echo U('brand/lst');?>" target="right"><span class="icon-caret-right"></span>品牌管理</a></li>
     <li><a href="<?php echo U('type/lst');?>" target="right"><span class="icon-caret-right"></span>分类管理</a></li>
-  </ul>  
+  </ul> 
+   <h2><span class="icon-pencil-square-o"></span>用户管理</h2>
+  <ul>
+    <li><a href="<?php echo U('Admin/lst');?>" target="right"><span class="icon-caret-right"></span>管理员列表</a></li>
+      <li><a href="<?php echo U('User/teaLst');?>" target="right"><span class="icon-caret-right"></span>教师管理</a></li>
+      <li><a href="<?php echo U('User/stulst');?>" target="right"><span class="icon-caret-right"></span>学生信息表</a></li>
+  </ul> 
+    <h2><span class="icon-pencil-square-o"></span>课程管理</h2>
+  <ul>
+    <li><a href="<?php echo U('Admin/sendSubjects/verifySub');?>" target="right"><span class="icon-caret-right"></span>课程管理</a></li>
+    <li><a href="<?php echo U('Admin/order/stuSubList');?>" target="right"><span class="icon-caret-right"></span>课程订单管理</a></li></ul> 
 </div>
 <div id="sess">您好：<?php echo session('username');?></div>
 <script type="text/javascript">

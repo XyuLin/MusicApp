@@ -15,9 +15,9 @@ class SubjectsTypeModel extends Model
     public function getType($type,$id = '')
     {
     	if($id != ''){
-    		$data = $this->field('id,subject_name')->where(['id'=>$id])->find();  
+    		$data = $this->field('id,subject_name,icon')->where(['id'=>$id])->find();  
     	}else{
-    		$data = $this->field('id,subject_name')->where(['type'=>$type])->select();
+    		$data = $this->field('id,subject_name,icon')->where(['type'=>$type])->select();
             $con = [['id'=>'0','subject_name'=>'不限']];
             $data = array_merge($con,$data);
     	}

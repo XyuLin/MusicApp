@@ -18,6 +18,10 @@ class BannerModel extends Model{
 			return $data;
 		}else{
 			$data = $this->order('sort desc')->select();
+
+			foreach($data as &$v){
+				$v['img'] = 'http://49.4.70.109/yjj/public/upload/' . $v['img'];
+			}
 			return $data;
 		}
 	}

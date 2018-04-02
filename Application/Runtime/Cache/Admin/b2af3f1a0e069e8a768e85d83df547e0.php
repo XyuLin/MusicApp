@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
     <title></title>
-    <link rel="stylesheet" href="/appmusic/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/appmusic/Public/Admin/css/admin.css">
-    <link rel="stylesheet" href="/appmusic/Public/Admin/css/h_banner.css">
-    <script src="/appmusic/Public/Admin/Js/jquery.js"></script>
-    <script src="/appmusic/Public/Admin/Js/pintuer.js"></script>
+    <link rel="stylesheet" href="/appMusic/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/appMusic/Public/Admin/css/admin.css">
+    <link rel="stylesheet" href="/appMusic/Public/Admin/css/h_banner.css">
+    <script src="/appMusic/Public/Admin/Js/jquery.js"></script>
+    <script src="/appMusic/Public/Admin/Js/pintuer.js"></script>
 </head>
 
 
@@ -44,7 +44,7 @@
     <?php if(is_array($info)): foreach($info as $key=>$v): ?><tr>
         <td style="text-align:left; padding-left:20px;"><?php echo $v['id'];?></td>
         <td><?php echo $v['musical_name'];?></td>
-        <td><img style="width: 55px" src="/appmusic/Public/Upload/<?php echo $v['img'];?>"/></td>
+        <td><img style="width: 55px" src="/appMusic/Public/Upload/<?php echo $v['img'];?>"/></td>
         <td><?php echo $v['brand_name'];?></td>
         <td><?php echo $v['xiaoliang'];?></td>
         <td><?php echo $v['type_name'];?></td>

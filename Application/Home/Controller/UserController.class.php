@@ -8,6 +8,8 @@
 
 namespace Home\Controller;
 use Think\Controller;
+use Org\Util\Wxpay;
+use Org\Util\Alipay;
 
 class UserController extends Controller
 {
@@ -82,7 +84,7 @@ class UserController extends Controller
                 if($id){
                         // 创建token
                         $con['user_token'] = $model->createToken($id);
-                        $con['expire_time'] = date('Y-m-d H:i:s',time()+86400);
+                        $con['expire_time'] = date('Y-m-d H:i:s',time()+1209600);
                         $model->where(['id'=>$id])->save($con);
                         // 初始化个人信息
                         $info = $model->getInfo($id);
@@ -115,27 +117,26 @@ class UserController extends Controller
         }
         $id = I('post.id');
         $role = I('post.opt');
+
+        $isT = $model->isTeacher($id);
+        if($isT){
+            $msg = returnMsg(0,'用户已是教师');
+            $this->ajaxReturn($msg);
+        }
       
         $res = $model->where(['id'=>$id])->save(['defaul'=>$role]);
-        if($role == 1){
-            if(!$isT){
-                    $data = [
-                    'id'        => $id,
-                    'addtime'   => date('Y-m-d H:i:s',time()),
-                    'sex'       => $model->where(['id'=>$id])->getField('sex'),
-                ];
-                D('teacher')->add($data);
-            }else{
 
-            }
-
-        }
-        $msg = [
+        if($res){
+             $msg = [
             'code' => 1,
             'msg'  => '角色选择成功',
             'data' => [$model->getInfo($id,1)],
-        ];
-        $this->ajaxReturn($msg);
+            ];
+            $this->ajaxReturn($msg);
+        }else{
+            $msg = returnMsg(0,'角色选择失败');
+            $this->ajaxReturn($msg);
+        }  
         
     }
 
@@ -347,7 +348,7 @@ class UserController extends Controller
                 ];
             } else {
                 $msg = [
-                    'code' => 0,
+                    'code' => 1,
                     'msg'  => '上传成功',
                     'data' => [
                         'avatar' => $info['avatar']['savepath'] . $info['avatar']['savename'],
@@ -392,45 +393,118 @@ class UserController extends Controller
             $this->ajaxReturn($code);
         }
 
-        // 获取资料
+        // 获取信息，创建订单
         $post = I('post.');
         $post['stu_id'] = I('post.id');
         unset($post['id']);
-
         // 获取课程详情
         $subject = D('sendSubjects');
         $subjectInfo = $subject->getInfo($post['subject_id'],1);
-        $post['class_hour_type'] = $subjectInfo['class_hour_type'];
-        $post['class_hour_price'] = $subjectInfo['class_hour_price'];
-        $num = upNumber($subject->class_hour_type[$subjectInfo['class_hour_type']]);
-        $post['subject_total'] = $num * $post['class_hour_price'];
+        if($subjectInfo['status'] != 1 ){
+            $msg = returnMsg(0,'此课程暂未通过审核');
+            $this->ajaxReturn($msg);
+        }
+        // 计算总价
+        $bottom = upNumber($subject->class_hour_type[$subjectInfo['class_hour_type']]);
+        $num = $post['num'] * $bottom;
+        $post['subject_total'] = $num * $subjectInfo['class_hour_price'];
+        $post['course_name'] = $subjectInfo['course_name'];
+        $model = D('stuSubject');
+        $order = $model->createOrder($post);
+
+        if($order){
+            $msg = returnMsg(1,'订单创建成功');
+            $this->ajaxReturn($msg);
+        }else{
+            $msg = returnMsg(0,'订单创建失败');
+            $this->ajaxReturn($msg);
+        }
+
+    }
+
+    // 
+    public function prePay()
+    {
+        // 验证用户是否登录
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }
 
         $model = D('stuSubject');
-        $id = $model->add($post);
-        if($id){
-            // 订单生成之后，支付
+        $type = I('post.type');
+        // V($type);die;
+        $info = $model->where(['id'=>I('post.order'),'stu_id'=>I('post.id')])->find();
 
-            // 支付成功。生成学生课程详情
-            $student = D('students');
-            $stu = [
-                'stu_id' => $post['stu_id'],
-                'subject_id' => $post['subject_id'],
-                'total_hours' => $num,
-            ];
-
-            $res = $student->editData($stu);
-            
-            if($res){
-                $msg = returnMsg(1,'购买成功');
-                $this->ajaxReturn($msg);
-            }  
+        // 判断订单状态，不可支付状态返回
+        if($info['pay_status'] != '0'){
+            if($info['pay_status'] == '2'){
+                $msg = returnMsg(0,'该订单已被取消');
+            }
+            if($info['pay_status' == '1']){
+                $msg = returnMsg(0,'该订单已支付');
+            }
+            $this->ajaxReturn($msg);
         }
+
+
+            $body = '艺家教——'. $info['stu_order_title'] . '购买';
+            $out_trade_no = $info['stu_order_id'];
+            $total_fee = $info['subject_total'];
+            $title = $info['stu_order_id'];
+        // 判断支付方式
+        if($type == 'wx'){
+            $wx = new Wxpay;
+            $data['trade_type'] = 'APP';
+            $response = $wx->getPrePayOrder($body,$out_trade_no,$total_fee);
+            $this->ajaxReturn($response);
+        }
+
+        if($type == 'ali'){
+            $ali = new Alipay;
+            $response = $ali->orderNext($body,$out_trade_no,$total_fee,$title);
+            $this->ajaxReturn($response);
+        }
+    }
+
+    // 
+    public function orderEnd()
+    {
+        // 获取返回信息
+        $post = I('post.');
+
+        // 修改订单状态。
+        // 支付成功。生成学生课程详情
+        $student = D('students');
+        $stu = [
+            'stu_id' => $post['stu_id'],
+            'subject_id' => $post['subject_id'],
+            'total_hours' => $post['num'] * 15,
+        ];  
+
+        $res = $student->editData($stu);
+        // 创建我的课程分类。
+        $subInfo = D('sendSubjects')->where(['id'=>$subject_id])->find();
+        $user = D('user');
+        if($res){
+             $user->haveCourse($post['stu_id'],2,$subInfo['subjects_type']);
+         }
+
+        // 提示成功
+        return 'SUCCESS';
+    }
+
+    public function abcd()
+    {
+        $user = D('user');
+        $user->haveCourse('14','2','1');
     }
 
     /** 
     * 我的课程(教师/学生) 
     *@param id str 用户id
-    *@param user_token str 用户token  
+    *@param user_token str 用户token
     */ 
     public function mySubjects()
     {
@@ -442,14 +516,13 @@ class UserController extends Controller
 
         $id = I('post.id');
         $teach = $user->isTeacher($id);   
-
+        $model = D('sendSubjects');
         if($teach != false){
-            $list = $user->subjectList($id,1);
+            $list = $model->returnClass($id);
         }else{
-            $list = $user->subjectList($id,2);
+            $list = $model->returnClass($id,2);
         }
-        $msg = returnMsg(1,'请求成功',$list);
-        $this->ajaxReturn($msg);
+        $this->ajaxReturn($list);
     }
 
 
@@ -461,11 +534,169 @@ class UserController extends Controller
         if($code['code'] == 2){
             $this->ajaxReturn($code);
         }
-
-        $model = D('students');
+        $id = I('post.id');
+        $teach = $user->isTeacher($id);
         $post = I('post.');
-        $info = $model->getInfo($post['stu_id'],$post['subject_id']);
+        $model = D('students');
+        if($teach != false){
+            // 教师
+            $info = $model->getInfo($post['stu_id'],$post['subject_id'],1);
+        }else{
+            $info = $model->getInfo($post['stu_id'],$post['subject_id']);
+        }
+
+       
         $msg = returnMsg(1,'请求成功',$info);
         $this->ajaxReturn($msg);
     }
+
+    public function stuComment()
+    {
+        // 用户验证
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }
+        // 获取评论数据 comment
+        // 获取所评论课程id subject_id
+        // 获取教师id  teacher_id
+        // 获取用户id id
+        // 获取评论类型 好  中  差 type 1 2 3 
+
+        // 判断用户是否购买此课程，并且以上课时
+        $classHour = D('classHour');
+        $post = I('post.');
+        $isTrue = $classHour->where(['stu_id'=>$post['id'],'subject_id'=>$post['subject_id']])->find();
+        // 判断用户是否已经评论
+        $isC = D('comment')->where(['stu_id'=>$post['id'],'subject_id'=>$post['subject_id'],'teacher_id'=>$post['teacher_id']])->find();
+
+        if($isC){
+            $msg = returnMsg(0,'用户已评论过该课程');
+            $this->ajaxReturn($msg);
+        }
+        if($isTrue){
+            $model = D('comment');
+            $post['user_id'] = $post['id'];
+            unset($post['id']);
+            $post['comment_time'] = date('Y-m-d H:i:s',time());
+            $id = $model->add($post);
+            if($id){
+                $msg = returnMsg(1,'评论成功');
+                $this->ajaxReturn($msg);
+            }
+        }else{
+            $msg = returnMsg(0,'安排课时之后才可评论');
+            $this->ajaxReturn($msg);            
+        }    
+
+    }
+
+
+    public function abcc()
+    {
+        $time = ('1' == date('w')) ? strtotime('Monday', $now) : strtotime('last Monday', $now);  
+
+        //下面2句就是将上面得到的时间做一个起止转换
+
+        //得到本周开始的时间，时间格式为：yyyy-mm-dd hh:ii:ss 的格式
+        $beginTime = date('Y-m-d 00:00:00', $time);  
+
+        //得到本周末最后的时间
+        $endTime = date('Y-m-d 23:59:59', strtotime('Sunday', $now));
+
+        echo $beginTime . '——' . $endTime;
+    }
+
+    // 课程表
+    public function subjectsForm()
+    {
+        // 用户验证
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }
+
+        $model = D('classHour');
+        $id = I('post.id');
+        if(!I('post.week')){
+            $week = '1';
+        }else{
+            $week = I('post.week');
+        }
+        $data = $model->returnForm($id,$week);
+        $this->ajaxReturn($data);
+    }
+
+    // 更多评论
+    public function comMore()
+    {
+        // 用户验证
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }
+
+        $teacher_id = I('post.teacher_id');
+        $user = D('user');
+
+        if(I('post.page')){
+            $page = I('post.page');
+        }else{
+            $page = '1';
+        }
+
+        $list = D('comment')->where(['teacher_id'=>$teacher_id])->limit('10')->page($page)->getField('id',true);
+
+        if(empty($list)){
+            $msg  = returnMsg(0,'暂时没有评论');
+            $this->ajaxReturn($msg);
+        }
+
+            foreach ($list as $key => &$value) {
+                # code...
+                $value = $user->commentInfo($value);
+            }
+        $msg  = returnMsg(1,'请求成功',$list);
+        $this->ajaxReturn($msg);
+    }
+
+    public function subMore()
+    {
+        // 用户验证
+        $user = D('user');
+        $code = $user->checkToken();
+        if($code['code'] == 2){
+            $this->ajaxReturn($code);
+        }   
+
+        $teacher_id = I('post.teacher_id');
+
+        if(I('post.page')){
+            $page = I('post.page');
+        }else{
+            $page = '1';
+        }
+
+        $model = D('sendSubjects');
+        
+        $list = $model->where(['teacher_id'=>$teacher_id,'status'=>'1'])->limit('10')->page($page)->getField('id',true);
+
+        if(empty($list)){
+            $msg  = returnMsg(0,'暂时没有发布课程');
+            $this->ajaxReturn($msg);
+        }
+
+       foreach ($list as $key => &$value) {
+            # code...
+            $value = $model->getInfo($value,1);
+        }
+
+        $msg  = returnMsg(1,'请求成功',$list);
+        $this->ajaxReturn($msg);
+    }    
+
+
 }

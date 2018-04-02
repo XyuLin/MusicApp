@@ -34,24 +34,24 @@
             <th width="5%">学员年龄</th>
             <th width="5%">学员性别</th>
             <th width="15%">学员地址</th>
-            <th width="10%">所学科目名称</th>
+            <!-- <th width="10%">所学科目名称</th>
             <th width="10%">身份证</th>
             <th width="5%">头像</th>
             <th width="7%">学习科目数量</th>
-            <th width="10%">注册时间</th>
+ -->            <th width="10%">注册时间</th>
             <th width="30%">操作</th>
         </tr>
 
         <?php if(is_array($info)): foreach($info as $key=>$v): ?><tr>
                 <td style="text-align:left; padding-left:20px;"><?php echo $v['id'];?></td>
-                <td><?php echo $v['username'];?></td>
+                <td><?php echo $v['name'];?></td>
                 <td><?php echo $v['age'];?></td>
-                <td><?php echo $v['sex'];?></td>
-                <td><?php echo $v['phoen'];?></td>
-                <td><?php echo $v['subject_name'];?></td>
+                <td><?php if($v['sex'] == 1){echo '男';}else{echo '女';} ;?></td>
+                <td><?php echo $v['home_address'];?></td>
+                <!-- <td><?php echo $v['subject_name'];?></td> --><!-- 
                 <td><img style="width: 55px" src="/appMusic/Public/Upload/<?php echo $v['car'];?>"/></td>
-                <td><img style="width: 55px" src="/appMusic/Public/Upload/<?php echo $v['img'];?>"/></td>
-                <td><?php echo $v['stu_num'];?></td>
+                <td><img style="width: 55px" src="/appMusic/Public/Upload/<?php echo $v['img'];?>"/></td> -->
+                <!-- <td><?php echo $v['stu_num'];?></td> -->
                 <td><?php echo $v['addtime'];?></td>
                 <td>
                         <a class="button border-red" href="<?php echo U('del?id='.$v['id']);?>" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span> 删除</a>

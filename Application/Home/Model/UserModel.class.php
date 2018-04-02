@@ -154,17 +154,44 @@ class UserModel extends Model{
         $user = $this->find($id);
         if($user['defaul'] == 1 && $type == ''){
             $teacher = D('teacher')->find($id);
+            // 教师是否已经取消
             if($teacher['tea_defaul_qx'] != 1){
 
                 $teacher['education_age'] .= '年';
                 $teacher['sex'] = $this->sexList[$user['sex']]; 
                 // 删除无用字段
                 unset($teacher['tea_defaul_id']);
-                unset($teacher['education']);
-                unset($teacher['graduate']);
+                // 学历信息
+                $teacher['education'] = $this->education[$teacher['education']];
+
+                $major = explode(',',$teacher['major_auth']);
+
+                $type = D('subjectsType');
+                foreach($major as &$m){
+                    $m = $type->getType(1,$m);
+                }
+                unset($m);
+                $teacher['major_auth'] = $major;
+
+                // 学生评论
+                $comments = D('comment')->where(['teacher_id'=>$id])->getField('id',true);
+                    foreach($comments as $v){
+                        $com[] = $this->commentInfo($v);
+                    }
+                $user['comments'] = $com;
+
+                $user['praiseRate'] = $this->praiseRate($id);
+
                 $user['teacher'] = $teacher;
+
+                // 课程最低价
+                $subject = D('sendSubjects');
+                $minPrice = $subject->where(['teacher_id'=>$id])->min('class_hour_price');
+                $user['min_price'] = $minPrice;
+
             }
         }
+        
 
         // 判断用户是否修改年龄
         $user['age'] = $user['age'] == ''? '未填写': $user['age'];
@@ -175,8 +202,10 @@ class UserModel extends Model{
         // 性别信息
         $user['sex'] = $this->sexList[$user['sex']];      
 
+
         // 判断用户是否上传头像 未上传提供默认头像
-        // $user['car'] = $user['car'] == "" ? "默认头像":'';
+        $user['car'] = 'http://49.4.70.109/yjj/Public/upload/' . $user['car'];
+        $user['haveCourse'] = $this->coursesTaught($id);
         unset($user['password']);
         return $user;
     }
@@ -230,7 +259,7 @@ class UserModel extends Model{
                 ];
                 return ($data);
         }
-        $con['expire_time'] = date('Y-m-d H:i:s',time()+604800);
+        $con['expire_time'] = date('Y-m-d H:i:s',time()+1209600);
         $this->where($token)->save($con);
 
 
@@ -242,24 +271,61 @@ class UserModel extends Model{
 
 
 
-    /** 
-    * 课程列表 
-    *@param id str 用户id
-    *@param type  用户类型 (1 教师,2 学生)
-    */ 
-    public function subjectList($id,$type)
-    {       
-         $model = D('sendSubjects');
-        if($type == 1){
-            // 获取教师发布的所有课程
-            $list = $model->returnClass($id);
-            return($list);
-        }else{
-            // 学生购买的教程
-            $list = $model->get_stu_class($id);
-            return($list);
+    // 用户购买或者发布过的课程记录
+    public function haveCourse($user_id,$defaul,$subject_type)
+    {
+        $model = D('haveCourse');
+        $con = [
+            'user_id' => $user_id,
+            'defaul' => $defaul,
+            'subject_type' => $subject_type,
+        ];
+        $info = $model->where($con)->find();
+        if(!$info){
+            $res = $model->add($con);
+            return $res;
         }
 
+    }
+
+    // 所授课程
+    public function coursesTaught($id)
+    {
+        $model = D('haveCourse');
+        $list = $model->where(['user_id'=>$id])->getField('subject_type',true);
+
+        $type = D('subjectsType');
+        foreach ($list as $key => &$value) {
+            $typename = $type->getType(1,$value);
+            $value = $typename['subject_name'];
+        }
+        unset($value);
+        return $list;
+    }
+
+    // 评论详情
+    public function commentInfo($id)
+    {
+        $model = D('comment');
+        $info = $model->where(['id'=>$id])->find();
+
+        $user = $this->where(['id'=>$info['user_id']])->find();
+
+        $info['car'] = 'http://49.4.70.109/yjj/Public/upload/' . $user['car'];
+        $info['name'] = $user['name'];
+
+        return $info;
+    }
+
+    public function praiseRate($id)
+    {
+        $model = D('comment');
+        $one = $model->where(['teacher_id'=>$id,'type'=>'1'])->count();
+        $two = $model->where(['teacher_id'=>$id,'type'=>'2'])->count();
+        $three = $model->where(['teacher_id'=>$id,'type'=>'3'])->count();
+
+        $rate = $one/($one+$two+$three) * 100 ; 
+        return $rate.'%';
     }
 
 }

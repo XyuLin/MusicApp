@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="renderer" content="webkit">
     <title></title>
-    <link rel="stylesheet" href="/appmusic/Public/Admin/css/pintuer.css">
-    <link rel="stylesheet" href="/appmusic/Public/Admin/css/admin.css">
-    <link rel="stylesheet" href="/appmusic/Public/Admin/css/h_banner.css">
-    <script src="/appmusic/Public/Admin/Js/jquery.js"></script>
-    <script src="/appmusic/Public/Admin/Js/pintuer.js"></script>
+    <link rel="stylesheet" href="/appMusic/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/appMusic/Public/Admin/css/admin.css">
+    <link rel="stylesheet" href="/appMusic/Public/Admin/css/h_banner.css">
+    <script src="/appMusic/Public/Admin/Js/jquery.js"></script>
+    <script src="/appMusic/Public/Admin/Js/pintuer.js"></script>
 </head>
 
 
@@ -39,7 +39,7 @@
     <?php if(is_array($info)): foreach($info as $key=>$v): ?><tr>
         <td style="text-align:left; padding-left:20px;"><?php echo $v['id'];?></td>
         <td><?php echo $v['brand_name'];?></td>
-        <td><img src="/appmusic/Public/Upload/<?php echo $v['img']?>" alt="" width="120" height="50" /></td>
+        <td><img src="/appMusic/Public/Upload/<?php echo $v['img']?>" alt="" width="120" height="50" /></td>
         <td>
           <div class="button-group">
             <a class="button border-main" href="<?php echo U('edit?id='.$v['id']);?>"><span class="icon-edit"></span> 修改</a>

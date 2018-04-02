@@ -1,0 +1,2058 @@
+[ 2018-03-23T09:37:56+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 09:37:56',`addtime`='2018-03-23 09:37:56' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0170s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0190s ]
+SQL: SELECT DISTINCT  `subject_id` FROM `music_stu_subject` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T09:38:46+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '584b98aac2dddf59ee2cf19ca4ccb75e' AND `id` = '34' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T09:39:15+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '584b98aac2dddf59ee2cf19ca4ccb75e' AND `id` = '34' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 09:39:15',`addtime`='2018-03-23 09:39:15' WHERE `user_token` = '584b98aac2dddf59ee2cf19ca4ccb75e' AND `id` = '34' [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 34  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT  `subject_id` FROM `music_stu_subject` WHERE `stu_id` = 34  [ RunTime:0.0000s ]
+
+[ 2018-03-23T09:41:34+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '584b98aac2dddf59ee2cf19ca4ccb75e' AND `id` = '34' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 09:41:34',`addtime`='2018-03-23 09:41:34' WHERE `user_token` = '584b98aac2dddf59ee2cf19ca4ccb75e' AND `id` = '34' [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 34  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT  `subject_id` FROM `music_stu_subject` WHERE `stu_id` = 34  [ RunTime:0.0000s ]
+
+[ 2018-03-23T09:41:43+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 09:41:43',`addtime`='2018-03-23 09:41:43' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT  `subject_id` FROM `music_stu_subject` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T10:31:17+08:00 ] ::1 /appMusic/index.php/Home/Alipay/orderNext
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:13:22+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:13:21',`addtime`='2018-03-23 11:13:21' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:13:58+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:13:58',`addtime`='2018-03-23 11:13:58' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:14:38+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:14:38',`addtime`='2018-03-23 11:14:38' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T11:20:23+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:20:23',`addtime`='2018-03-23 11:20:23' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:20:33+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:20:33',`addtime`='2018-03-23 11:20:33' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0830s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:20:50+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:20:50',`addtime`='2018-03-23 11:20:50' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:23:22+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:23:22',`addtime`='2018-03-23 11:23:22' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:24:01+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:24:01',`addtime`='2018-03-23 11:24:01' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.1380s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T11:26:43+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:26:43',`addtime`='2018-03-23 11:26:43' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:27:08+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:27:08',`addtime`='2018-03-23 11:27:08' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:27:37+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:27:37',`addtime`='2018-03-23 11:27:37' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0980s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:33:09+08:00 ] ::1 /appMusic/index.php/Home/teacher/teacherInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:33:09',`addtime`='2018-03-23 11:33:09' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0560s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_comment` [ RunTime:0.0810s ]
+SQL: SELECT `id` FROM `music_comment` WHERE `teacher_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_comment` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_comment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_comment` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_comment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_comment` WHERE `teacher_id` = 39 AND `type` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_comment` WHERE `teacher_id` = 39 AND `type` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_comment` WHERE `teacher_id` = 39 AND `type` = '3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 158 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\TeacherController.class.php 第 87 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\TeacherController.class.php 第 87 行.
+
+[ 2018-03-23T11:35:52+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:35:52',`addtime`='2018-03-23 11:35:52' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 160 行.
+
+[ 2018-03-23T11:36:09+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:36:09',`addtime`='2018-03-23 11:36:09' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:37:23+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:37:22',`addtime`='2018-03-23 11:37:22' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0740s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:37:57+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:37:57',`addtime`='2018-03-23 11:37:57' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.1190s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:45:03+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:45:03',`addtime`='2018-03-23 11:45:03' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:45:26+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:45:26',`addtime`='2018-03-23 11:45:26' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T11:46:35+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:46:35',`addtime`='2018-03-23 11:46:35' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.1610s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T11:47:06+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:47:06',`addtime`='2018-03-23 11:47:06' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0780s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T11:47:27+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:47:27',`addtime`='2018-03-23 11:47:27' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:47:47+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 11:47:47',`addtime`='2018-03-23 11:47:47' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:04:47+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:04:46',`addtime`='2018-03-23 13:04:46' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'subjects_name' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 157 行.
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'subjects_name' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 157 行.
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'subjects_name' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 157 行.
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'subjects_name' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 157 行.
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'subjects_name' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 157 行.
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'subjects_name' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 157 行.
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'subjects_name' D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 157 行.
+
+[ 2018-03-23T13:05:18+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:05:18',`addtime`='2018-03-23 13:05:18' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:11:10+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:11:10',`addtime`='2018-03-23 13:11:10' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT  `subject_id` FROM `music_stu_subject` WHERE `stu_id` = 37  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:11:41+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:11:41',`addtime`='2018-03-23 13:11:41' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT  `subject_id` FROM `music_stu_subject` WHERE `stu_id` = 37  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:12:37+08:00 ] ::1 /appMusic/index.php/Home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:12:37',`addtime`='2018-03-23 13:12:37' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: INSERT INTO `music_stu_subject` (`subject_id`,`stu_id`,`class_hour_type`,`class_hour_price`,`subject_total`) VALUES ('4','37','1','38','570') [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','4','15') [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_have_course` WHERE `user_id` = 37 AND `defaul` = 2 AND `subject_type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `music_have_course` (`user_id`,`defaul`,`subject_type`) VALUES ('37','2','2') [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:12:47+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:12:47',`addtime`='2018-03-23 13:12:47' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT  `subject_id` FROM `music_stu_subject` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:14:48+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '584b98aac2dddf59ee2cf19ca4ccb75e' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:14:55+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:15:15+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:15:15',`addtime`='2018-03-23 13:15:15' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: v D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 150 行.
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = null  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 155 行.
+
+[ 2018-03-23T13:15:28+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:15:28',`addtime`='2018-03-23 13:15:28' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: v D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 150 行.
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = null  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 155 行.
+
+[ 2018-03-23T13:16:24+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:16:24',`addtime`='2018-03-23 13:16:24' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: v D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 150 行.
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = null  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\SendSubjectsModel.class.php 第 155 行.
+
+[ 2018-03-23T13:16:59+08:00 ] ::1 /appMusic/index.php/Home/user/mySubjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:16:59',`addtime`='2018-03-23 13:16:59' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 39  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `music_send_subjects` WHERE `teacher_id` = 39 AND `subjects_type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:26:45+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2018-03-23T13:27:19+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:27:27+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:27:29+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:27:30+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:27:30+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:27:31+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-23T13:27:31+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:27:32+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:27:32+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:28:57+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:28:59+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:29:01+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:29:02+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:29:02+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:29:03+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:29:03+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:29:14+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T13:29:14+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T13:51:10+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:51:10',`addtime`='2018-03-23 13:51:10' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: class_hour_price D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\UserController.class.php 第 405 行.
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+
+[ 2018-03-23T13:52:23+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:52:23',`addtime`='2018-03-23 13:52:23' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: class_hour_price D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\UserController.class.php 第 415 行.
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032355565599','初级吉他教程','0','0','2018-03-23 13:52:23') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','12','15') [ RunTime:0.1080s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_have_course` WHERE `user_id` = 37 AND `defaul` = 2 AND `subject_type` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T13:53:41+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 13:53:40',`addtime`='2018-03-23 13:53:40' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0020s ]
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032352101574','初级吉他教程','570','0','2018-03-23 13:53:40') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_students` SET `total_hours`='30' WHERE `stu_id` = 37 AND `subject_id` = 12 [ RunTime:0.0690s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_have_course` WHERE `user_id` = 37 AND `defaul` = 2 AND `subject_type` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T14:13:29+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:13:29',`addtime`='2018-03-23 14:13:29' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: model D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StuSubjectModel.class.php 第 45 行.
+
+[ 2018-03-23T14:13:52+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:13:51',`addtime`='2018-03-23 14:13:51' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.1850s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032310210153','初级吉他教程','570','0','2018-03-23 14:13:51') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: num D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\UserController.class.php 第 410 行.
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: done_hours D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StudentsModel.class.php 第 33 行.
+ERR: 1048:Column 'total_hours' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','12',NULL)
+ERR: 1048:Column 'total_hours' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','12',NULL)
+
+[ 2018-03-23T14:15:47+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:15:47',`addtime`='2018-03-23 14:15:47' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032351575252','初级吉他教程','570','0','2018-03-23 14:15:47') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: total_hours D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\UserController.class.php 第 410 行.
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: done_hours D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StudentsModel.class.php 第 33 行.
+ERR: 1048:Column 'total_hours' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','12',NULL)
+ERR: 1048:Column 'total_hours' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','12',NULL)
+
+[ 2018-03-23T14:15:54+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:15:54',`addtime`='2018-03-23 14:15:54' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032397499756','初级吉他教程','570','0','2018-03-23 14:15:54') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: total_hours D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\UserController.class.php 第 410 行.
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: done_hours D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StudentsModel.class.php 第 33 行.
+ERR: 1048:Column 'total_hours' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','12',NULL)
+ERR: 1048:Column 'total_hours' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_students` (`stu_id`,`subject_id`,`total_hours`) VALUES ('37','12',NULL)
+
+[ 2018-03-23T14:19:36+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:19:36',`addtime`='2018-03-23 14:19:36' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: subjectInfo D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StuSubjectModel.class.php 第 40 行.
+NOTIC: [8] Undefined variable: subjectInfo D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StuSubjectModel.class.php 第 41 行.
+NOTIC: [8] Undefined variable: num D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StuSubjectModel.class.php 第 41 行.
+ERR: 1048:Column 'stu_order_title' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032356564999',NULL,'0','0','2018-03-23 14:19:36')
+ERR: 1048:Column 'stu_order_title' cannot be null
+ [ SQL语句 ] : INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032356564999',NULL,'0','0','2018-03-23 14:19:36')
+
+[ 2018-03-23T14:20:55+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:20:55',`addtime`='2018-03-23 14:20:55' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032355984848','初级吉他教程','570','0','2018-03-23 14:20:55') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_students` SET `total_hours`='45' WHERE `stu_id` = 37 AND `subject_id` = 12 [ RunTime:0.0690s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_have_course` WHERE `user_id` = 37 AND `defaul` = 2 AND `subject_type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T14:21:23+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:21:23',`addtime`='2018-03-23 14:21:23' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0020s ]
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032351999848','初级吉他教程','570','0','2018-03-23 14:21:23') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_students` SET `total_hours`='60' WHERE `stu_id` = 37 AND `subject_id` = 12 [ RunTime:0.0780s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_have_course` WHERE `user_id` = 37 AND `defaul` = 2 AND `subject_type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T14:52:17+08:00 ] ::1 /appMusic/index.php/home/user/buyCoures
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 14:52:17',`addtime`='2018-03-23 14:52:17' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: INSERT INTO `music_stu_subject` (`stu_id`,`subject_id`,`teach_mode`,`stu_order_id`,`stu_order_title`,`subject_total`,`pay_status`,`create_time`) VALUES ('37','12','1','2018032349505797','初级吉他教程','570','0','2018-03-23 14:52:17') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_students` SET `total_hours`='75' WHERE `stu_id` = 37 AND `subject_id` = 12 [ RunTime:0.0690s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_have_course` WHERE `user_id` = 37 AND `defaul` = 2 AND `subject_type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T15:40:06+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+ERR: Think\Model:returnForm方法不存在！
+
+[ 2018-03-23T15:40:25+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T15:45:26+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+ERR: Think\Model:returnForm方法不存在！
+
+[ 2018-03-23T15:45:50+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 1  [ RunTime:0.0000s ]
+
+[ 2018-03-23T15:46:53+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 1  [ RunTime:0.0000s ]
+
+[ 2018-03-23T15:51:11+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 1  [ RunTime:0.0000s ]
+
+[ 2018-03-23T15:51:27+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+
+[ 2018-03-23T15:55:04+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+SQL: SELECT `course_name` FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T15:55:16+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+SQL: SELECT `course_name` FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T15:57:32+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+SQL: SELECT `course_name` FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T16:04:15+08:00 ] ::1 /appMusic/index.php/Home/user/abcc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T16:04:24+08:00 ] ::1 /appMusic/index.php/Home/teacher/addClassHour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 16:04:24',`addtime`='2018-03-23 16:04:24' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1521792255 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T16:04:47+08:00 ] ::1 /appMusic/index.php/Home/teacher/addClassHour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 16:04:47',`addtime`='2018-03-23 16:04:47' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0590s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SELECT `end_time` FROM `music_class_hour` WHERE `subject_id` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `music_class_hour` (`stu_id`,`subject_id`,`start_time`,`end_time`) VALUES ('37','1','2018-03-23 16:04:15','2018-03-23 16:49:15') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total_hours D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\StudentsModel.class.php 第 26 行.
+SQL: UPDATE `music_students` SET `done_hours`='2' WHERE `stu_id` = 37 AND `subject_id` = 1 [ RunTime:0.0390s ]
+
+[ 2018-03-23T16:04:52+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '' AND `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T16:05:00+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 16:05:00',`addtime`='2018-03-23 16:05:00' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Home\Model\ClassHourModel::returnForm(), called in D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Controller\UserController.class.php on line 529 and defined D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\ClassHourModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\ClassHourModel.class.php 第 12 行.
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = null  [ RunTime:0.0010s ]
+
+[ 2018-03-23T16:07:40+08:00 ] ::1 /appMusic/index.php/home/user/subjectsForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 16:07:40',`addtime`='2018-03-23 16:07:40' WHERE `user_token` = '9afefc52942cb83c7c1f14b2139b09ba' AND `id` = '37' [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `music_class_hour` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_class_hour` WHERE `stu_id` = 37  [ RunTime:0.0000s ]
+SQL: SELECT `course_name` FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `course_name` FROM `music_send_subjects` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T18:12:44+08:00 ] ::1 /appMusic/index.php/Home/user/stuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 18:12:44',`addtime`='2018-03-23 18:12:44' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0040s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1146:Table 'music_app.music_stu_subjects' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subjects`
+ERR: 1146:Table 'music_app.music_stu_subjects' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `music_stu_subjects`
+
+[ 2018-03-23T18:13:02+08:00 ] ::1 /appMusic/index.php/Home/user/stuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 18:13:01',`addtime`='2018-03-23 18:13:01' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.1060s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0400s ]
+
+[ 2018-03-23T18:13:38+08:00 ] ::1 /appMusic/index.php/Home/user/stuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 18:13:38',`addtime`='2018-03-23 18:13:38' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.1080s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0020s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-23T18:14:53+08:00 ] ::1 /appMusic/index.php/Home/user/stuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_user` WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `music_user` SET `expire_time`='2018-03-30 18:14:53',`addtime`='2018-03-23 18:14:53' WHERE `user_token` = 'df4fe8a8bcd5c95cdb640aa9793bb32b' AND `id` = '39' [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `music_students` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_students` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_have_course` [ RunTime:0.0030s ]
+SQL: SELECT `subject_type` FROM `music_have_course` WHERE `user_id` = 37  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_subjects_type` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`subject_name` FROM `music_subjects_type` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `music_stu_subject` WHERE `stu_id` = 37 AND `subject_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+

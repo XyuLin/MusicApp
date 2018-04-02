@@ -29,34 +29,38 @@
   </div>
   <table class="table table-hover text-center">
     <tr>
-      <th width="5%" style="text-align:left; padding-left:20px;">ID</th>
-      <th width="10%">姓名</th>
+      <th width="3%" style="text-align:left; padding-left:20px;">ID</th>
+      <th width="3%">姓名</th>
       <th width="5%">年龄</th>
       <th width="5%">性别</th>
-      <th width="15%">办公地址</th>
-      <th width="5%">家庭住址</th>
-      <th width="10%">身份证</th>
-      <th width="8%">教育年限</th>
+      <th width="8%">办公地址</th>
+      <th width="7%">家庭住址</th>
+      <th width="10%">毕业院校</th>
+      <th width="5%">教育年限</th>
+      <th width="5%">审核状态</th>
       <th width="5%">注册时间</th>
-      <th width="25%">操作</th>
+      <th width="35%">操作</th>
     </tr>
 
     <?php if(is_array($info)): foreach($info as $key=>$v): ?><tr>
         <td style="text-align:left; padding-left:20px;"><?php echo $v['id'];?></td>
-        <td><?php echo $v['username'];?></td>
+        <td><?php echo $v['name'];?></td>
         <td><?php echo $v['age'];?></td>
-        <td><?php echo $v['sex'];?></td>
-        <td><?php echo $v['office_address'];?></td>
-        <td><?php echo $v['home_address'];?></td>
-        <td><img style="width: 55px" src="/appMusic/Public/Upload/<?php echo $v['car'];?>"/></td>
-        <td><?php echo $v['education_age'];?></td>
+        <td><?php if($v['sex'] == 1){echo '男';}else{echo '女';} ;?></td>
+        <td><?php echo $v['teacher']['office_address'];?></td>
+        <td><?php echo $v['teacher']['home_address'];?></td>
+        <td><?php echo $v['teacher']['graduate'];?></td>
+       <!--  <td><img style="width: 55px" src="/appMusic/Public/Upload/<?php echo $v['car'];?>"/></td> -->
+        <td><?php echo $v['teacher']['education_age'];?></td>
+        <td><?php if($v['defaul'] == 1 ){echo '已通过';}elseif($v['defaul'] == 3 ){echo '审核中';}else{echo '未选择';} ; ?></td>
         <td><?php echo $v['addtime'];?></td>
         <td>
           <div class="button-group">
-            <a class="button border-main" href="<?php echo U('sel?id='.$v['id']);?>"><span class="icon-edit"></span> 查看评论</a>
-            <a class="button border-main" href="<?php echo U('see_video?id='.$v['id']);?>"><span class="icon-edit"></span> 查看教程</a>
-            <a class="button border-main" href="<?php echo U('edit?id='.$v['id']);?>"><span class="icon-edit"></span> 编辑修改</a>
-            <a class="button border-red" href="<?php echo U('del?id='.$v['id']);?>" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span>删除信息</a>
+            <?php if($v["defaul"] != 1 & $v["defaul"] != 0 ): ?><a class="button border-main" href="<?php echo U('user/verify?id='.$v['id']);?>"><span class="icon-edit"></span>通过审核</a><?php endif; ?>
+            <a class="button border-main" href="<?php echo U('sel?id='.$v['id']);?>"><span class="icon-edit"></span>查看评论</a>
+            <a class="button border-main" href="<?php echo U('see_video?id='.$v['id']);?>"><span class="icon-edit"></span>他的教程</a>
+            <a class="button border-main" href="<?php echo U('teacherEdit?id='.$v['id']);?>"><span class="icon-edit"></span>编辑</a>
+            <a class="button border-red" href="<?php echo U('delTeacher?id='.$v['id']);?>" onclick=" return confirm('请确认删除当前账号！！！');"><span class="icon-trash-o"></span>删除</a>
           </div>
         </td>
       </tr><?php endforeach; endif; ?>

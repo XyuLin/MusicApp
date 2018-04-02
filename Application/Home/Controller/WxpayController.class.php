@@ -7,9 +7,9 @@ class WxpayController extends Controller {
     配置参数
     */
     private $config = array(
-        'appid' => "wxc888888888",    /*微信开放平台上的应用id*/
-        'mch_id' => "88888888",   /*微信申请成功之后邮件中的商户id*/
-        'api_key' => "5d82747060a5873e0d3de256b8485094",    /*在微信商户平台上自己设定的api密钥 32位*/
+        'appid' => "wx6835e8db1af4e70e",    /*微信开放平台上的应用id*/
+        'mch_id' => "1500922251",   /*微信申请成功之后邮件中的商户id*/
+        'api_key' => "yijiajiao1208877183SJ13505197728",    /*在微信商户平台上自己设定的api密钥 32位*/
         'notify_url' => 'http://www.xxxxx.com/app/index.php/Api/modifyPayState' /*自定义的回调程序地址*/
     );
  

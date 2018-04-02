@@ -47,7 +47,7 @@ class UserModel extends Model
 
 
     /******************查老师信息**************/
-    public function teach($pageSize = 3){
+    public function teach($pageSize = 5){
         $where = array();
         $userName = I('get.userName');
         if($userName){
@@ -67,18 +67,20 @@ class UserModel extends Model
 
 
     /******************查看某个老师所有评论 这里只取到老师发表的动态评论**************/
-    public function com_to_teacher($id,$pageSize = 10){
+    public function com_to_teacher($id,$pageSize = 5){
 
-        $count = $this->count();
+        $model = D('comment');
+        $type = [1=>'好评','中评','差评'];
+        $count = $model->where(['teacher_id'=>$id])->count();
         $Page = new \Think\Page($count,$pageSize);
         $Page->setConfig('prev', '上一页');
         $Page->setConfig('next', '下一页');
-        $info = $this->alias('a')->field('c.*,d.username,b.send_content')
-            ->join('LEFT JOIN __USER_DTAI__ b ON b.user_id = a.id 
-                    LEFT JOIN __COM_TEACH__ c ON c.dtai_id = b.id
-                     LEFT JOIN __USER__ d ON c.stu_id = d.id')
-            ->where(array('a.id' =>array('eq',"$id")))
-            ->select();
+        $info = $model->where(['teacher_id'=>$id])->select();
+        foreach ($info as $key => &$value) {
+            # code...
+            $value['username'] = $this->where(['id'=>$value['user_id']])->getField('name');
+            $value['type'] = $type[$value['type']];
+        }
         $page = $Page->show();
         return $data = array('info'=>$info,'page'=>$page);
 
@@ -86,42 +88,26 @@ class UserModel extends Model
 
 
     /******************更新老师信息前**************/
-    public function _before_update(&$data,$opt)
-    {
-        $data['addtime'] = date('Y-m-d H:i:s', time());
-        $data['password'] = md5($this->password);
-        if ($_FILES['car']['error'] == 0) {
-            $upload = new \Think\Upload();
-            $upload->maxSize = 3145728;
-            $upload->exts = array('jpg', 'gif', 'png', 'jpeg');
-            $upload->rootPath = './Public/Upload/';
-            $upload->savePath = 'TeacherImages/';
-            $info = $upload->upload();
 
-            if (!$info) {
-                $this->error = $upload->getError();
-                return false;
-            } else {
-                $data['teacher_car'] = $logo = $info['teacher_car']['savepath'] . $info['teacher_car']['savename'];
-            }
-        }
-    }
 
 
     /******************查看某个老师所有教程**************/
-    public function see_video($id,$pageSize = 2){
+    public function see_video($id,$pageSize = 5){
 
-        $info = $this->alias('a')->field('c.subject_name,b.number,b.up_date,b.id')
-            ->join('LEFT JOIN __VIDEO__ b ON a.id = b.teacher_id and b.statu = "1"
-                    LEFT JOIN __SUBJECTS_TYPE__ c ON b.subjects_id = c.id ')
-            ->where(array('a.id' =>array('eq',"$id")))
-            ->select();
-        $count =count($info);
+        $model = D('sendSubjects');
+        $students = D('stuSubject');
+        $num = $model->where(['teacher_id'=>$id])->select();
+        // V($list);die;
+        $count = count($num);
         $Page = new \Think\Page($count,$pageSize);
         $Page->setConfig('prev', '上一页');
         $Page->setConfig('next', '下一页');
+        $list = $model->where(['teacher_id'=>$id])->order('id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        foreach($list as &$v){
+            $v['count'] = $students->where(['subject_id'=>$v['id']])->count();
+        }
         $page = $Page->show();
-        return $data = array('info'=>$info,'page'=>$page);
+        return $data = array('info'=>$list,'page'=>$page);
 
     }
 
@@ -161,4 +147,42 @@ class UserModel extends Model
                 'page'=>$page);
     }
 
+    public function students($pageSize = '5')
+    {
+        $where = ['defaul'=> 2];
+        $count = $this->where($where)->count();
+        $Page = new \Think\Page($count,$pageSize);
+        $Page->setConfig('prev', '上一页');
+        $Page->setConfig('next', '下一页');
+        $list = $this->where($where)->order('id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+
+        $page = $Page->show();
+        return $data = [
+                'info' => $list,
+                'page' => $page,
+            ];
+    }
+
+
+    public function teachers($pageSize = '5')
+    {
+        $model = D('teacher');
+        $where['defaul'] = ['neq','2'];
+        $count = $this->where($where)->count();
+        $Page = new \Think\Page($count,$pageSize);
+        $Page->setConfig('prev', '上一页');
+        $Page->setConfig('next', '下一页');
+        $list = $this->where($where)->order('id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+
+        foreach ($list as $key => &$value) {
+            # code...
+            $value['teacher'] = D('teacher')->find($value['id']);
+        }
+
+        $page = $Page->show();
+        return $data = [
+                'info' => $list,
+                'page' => $page,
+            ];
+    }
 }

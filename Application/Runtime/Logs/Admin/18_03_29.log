@@ -1,0 +1,379 @@
+[ 2018-03-29T13:40:51+08:00 ] ::1 /appMusic/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-03-29T13:40:52+08:00 ] ::1 /appMusic/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-29T13:40:58+08:00 ] ::1 /appMusic/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\phpStudy\PHPTutorial\WWW\appMusic\Application\Admin\Model\AdminModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `music_admin` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\PHPTutorial\WWW\appMusic\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `music_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-29T13:40:59+08:00 ] ::1 /appMusic/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-29T13:40:59+08:00 ] ::1 /appMusic/index.php/Admin/images/y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-29T13:40:59+08:00 ] ::1 /appMusic/index.php/Admin/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-29T13:41:03+08:00 ] ::1 /appMusic/index.php/Admin/User/teaLst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-29T13:41:15+08:00 ] ::1 /appMusic/index.php/Admin/User/teaLst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_user` WHERE `defaul` <> '2' LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `music_user` WHERE `defaul` <> '2' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-29T13:42:04+08:00 ] ::1 /appMusic/index.php/Admin/User/teaLst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_user` WHERE `defaul` <> '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_user` WHERE `defaul` <> '2' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-29T13:42:35+08:00 ] ::1 /appMusic/index.php/Admin/User/teaLst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_user` WHERE `defaul` <> '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `defaul` <> '2' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-29T13:43:17+08:00 ] ::1 /appMusic/index.php/Admin/User/teaLst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_user` WHERE `defaul` <> '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_user` WHERE `defaul` <> '2' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-29T13:43:30+08:00 ] ::1 /appMusic/index.php/Admin/user/verify/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: UPDATE `music_user` SET `defaul`='1' WHERE `id` = 43 [ RunTime:0.0590s ]
+SQL: SELECT `sex` FROM `music_user` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0030s ]
+SQL: INSERT INTO `music_teacher` (`id`,`addtime`,`sex`,`tea_defaul_qx`) VALUES ('43','2018-03-29 13:43:30','1','1') [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-29T13:43:31+08:00 ] ::1 /appMusic/index.php/Admin/User/teaLst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_teacher` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_user` WHERE `defaul` <> '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_user` WHERE `defaul` <> '2' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_teacher` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-29T13:43:35+08:00 ] ::1 /appMusic/index.php/Admin/User/see_video/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `teacher_id` = 43  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `music_send_subjects` WHERE `teacher_id` = 43 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-29T13:43:38+08:00 ] ::1 /appMusic/index.php/Admin/User/sel/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `music_comment` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_comment` WHERE `teacher_id` = 43 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `music_comment` WHERE `teacher_id` = 43  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-29T13:53:03+08:00 ] ::1 /appMusic/index.php/Admin/order/stuSubList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `music_stu_subject` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_stu_subject` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `music_stu_subject` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `music_user` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `music_user` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-29T13:53:04+08:00 ] ::1 /appMusic/index.php/Admin/sendSubjects/verifySub.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `music_send_subjects` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `music_send_subjects` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.subject_name,c.name FROM music_send_subjects a LEFT JOIN music_subjects_type b ON a.subjects_type = b.id LEFT JOIN music_user c ON a.teacher_id = c.id  ORDER BY id desc LIMIT 0,5   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
